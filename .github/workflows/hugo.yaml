@@ -56,11 +56,11 @@ jobs:
           HUGO_ENV: production
           TZ: America/Los_Angeles
         run: |
+          npx pagefind --site public &&\
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" &&\
-          npx pagefind --site public
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
