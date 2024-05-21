@@ -8,10 +8,10 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-05-21T17:53:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/system-design-second/</loc>
+    <loc>http://localhost:1313/tags/system-design/</loc>
     <lastmod>2024-05-21T17:53:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/system-design/</loc>
+    <loc>http://localhost:1313/posts/system-design-second/</loc>
     <lastmod>2024-05-21T17:53:16+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
