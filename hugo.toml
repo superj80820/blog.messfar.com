@@ -1,0 +1,27 @@
+baseURL = 'https://blog.messfar.com/'
+languageCode = 'zh-tw'
+title = "York Lin's blog"
+theme = 'archie'
+
+disqusShortname = "superj80820"
+
+[params]
+	mode="toggle"
+
+[menus]
+  [[menus.main]]
+    name = 'Golang 設計模式'
+    url = '/tags/design-pattern/'
+    weight = 10
+  [[menus.main]]
+    name = 'Golang 系統設計'
+    url = '/tags/system-design/'
+    weight = 11
+  [[menus.main]]
+    name = '文章分類'
+    url = "/tags"
+    weight = 20
+  [[menus.main]]
+    name = '關於我'
+    pageRef = '/about-me'
+    weight = 30
