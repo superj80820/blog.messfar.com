@@ -3,42 +3,27 @@ title = '學習地圖'
 date = 2024-02-03T00:00:00+08:00
 +++
 
-[https://miro.com/app/live-embed/uXjVM0yqIS0=/?moveToViewport=-2256,-1111,4633,2577&embedId=364798369319](https://miro.com/app/live-embed/uXjVM0yqIS0=/?moveToViewport=-2256,-1111,4633,2577&embedId=364798369319)
-
----
-
-$$
-\Large\textsf{程式通用}
-$$
-
-## 🍇 程式語言
+## 程式語言
 
 - JavaScript & Node.js
 - Rust
     - [rust trait(特徵)跟java interface(介面)的差異](Rust%20%E9%9A%A8%E7%AD%86%20e69468ae63bd4546a6b76a5f908a65b5/rust%20trait(%E7%89%B9%E5%BE%B5)%E8%B7%9Fjava%20interface(%E4%BB%8B%E9%9D%A2)%E7%9A%84%E5%B7%AE%E7%95%B0%2031ce661b33554ee18c978eaac795e6eb.md)
 
-## 🥥 設計模式
+## 設計模式
 
 ### Hey! Go Design Patterns
 
 - DAY 1：Hey! Go Design Patterns: [https://ithelp.ithome.com.tw/articles/10260929](https://ithelp.ithome.com.tw/articles/10260929)
 
-## 🍈 數據結構與演算法
+## 數據結構與演算法
 
-### SortSet
-
-### PriorityQueue
-
-### BuildHeap
-
-### [minimum-waiting-time](Algo%20%E9%9A%A8%E7%AD%86%2086f57ecd943b4daf81a556fa59191f0e/algoexpert-minimum-waiting-time%2033a9bc6a5925436ab92d22beba5b2bbf.md)
-
-### [class-photos](Algo%20%E9%9A%A8%E7%AD%86%2086f57ecd943b4daf81a556fa59191f0e/algoexpert-class-photos%202c7196856ba04789a9b82a4af2f87c55.md)
-
-### Tower of Hanoi
-
-### one's complement, two's complement
-
+- SortSet
+- PriorityQueue
+- BuildHeap
+- [minimum-waiting-time](Algo%20%E9%9A%A8%E7%AD%86%2086f57ecd943b4daf81a556fa59191f0e/algoexpert-minimum-waiting-time%2033a9bc6a5925436ab92d22beba5b2bbf.md)
+- [class-photos](Algo%20%E9%9A%A8%E7%AD%86%2086f57ecd943b4daf81a556fa59191f0e/algoexpert-class-photos%202c7196856ba04789a9b82a4af2f87c55.md)
+- Tower of Hanoi
+- one's complement, two's complement
 - [https://noob.tw/complements/](https://noob.tw/complements/)
 - one's complement: 正與負範圍的絕對值相同，會產生-0的現象
 - two's complement: 正與負範圍的絕對值不同，正從0開始，負從-1開始，這也使得負數與正數最大的絕對值不同，負數會比正數大1 (e.g.  -128 ~ -1 ~ +0 ~ +127)
@@ -73,7 +58,7 @@ $$
 - 用漫畫圖片理解紅黑樹: [https://mp.weixin.qq.com/s/0RKuO0Pk7R09wGzgyA43mw](https://mp.weixin.qq.com/s/0RKuO0Pk7R09wGzgyA43mw)
 - 線上動畫解釋tree的新增、查找、刪除: [https://www.cs.usfca.edu/~galles/visualization/Algorithms.html](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
-## 🍉 資料儲存
+## 資料儲存
 
 ### 資料庫儲存密碼
 
@@ -123,11 +108,7 @@ $$
 
 ---
 
-$$
-\Large\textsf{實作應用}
-$$
-
-## 🍋 分布式服務
+## 分布式服務
 
 ### OutBox Pattern
 
@@ -190,44 +171,41 @@ $$
         - [https://mp.weixin.qq.com/s?__biz=MzU2MTM4NDAwMw==&mid=2247491507&idx=1&sn=f1bec356c94cd0101809dc11dcf27ba2&chksm=fc78c09fcb0f49898f6cc9b80499aeb871a80f95ab4fbe12c32567cab6a3521a6c33b61dd807&scene=178&cur_album_id=1763234202604388353#rd](https://mp.weixin.qq.com/s?__biz=MzU2MTM4NDAwMw==&mid=2247491507&idx=1&sn=f1bec356c94cd0101809dc11dcf27ba2&chksm=fc78c09fcb0f49898f6cc9b80499aeb871a80f95ab4fbe12c32567cab6a3521a6c33b61dd807&scene=178&cur_album_id=1763234202604388353#rd)
     - 我是如何將一個老系統的kafka消費者服務的性能提升近百倍的: [https://www.cnblogs.com/softwarearch/p/16443128.html](https://www.cnblogs.com/softwarearch/p/16443128.html)
 
-## 🍌 測試
+## 測試
 
 ### [測試框架或套件的選擇](Test%20%E9%9A%A8%E7%AD%86%20ae63acd045944c3a8c066c250be40b33/%E6%B8%AC%E8%A9%A6%E6%A1%86%E6%9E%B6%E6%88%96%E5%A5%97%E4%BB%B6%E7%9A%84%E9%81%B8%E6%93%87%2062a527aee9e04c9e814583a902bfd953.md)
 
-## 🫐 前端
+## 前端
 
-## 🥕 運維
-
----
-
-$$
-\Large\textsf{實作}
-$$
-
-- 交易系統
-    - 撮合引擎:
-        - [https://himanshu-007.medium.com/simple-rate-limiter-in-golang-using-token-bucket-algorithm-388d0596d1e4](https://himanshu-007.medium.com/simple-rate-limiter-in-golang-using-token-bucket-algorithm-388d0596d1e4)
-        - [https://github.com/yzimhao/trading_engine](https://github.com/yzimhao/trading_engine)
-            - 相關介紹: [https://yzimhao.github.io/trading_engine/](https://yzimhao.github.io/trading_engine/)
-        - [https://github.com/stingbo/gome](https://github.com/stingbo/gome)
-            - 相關介紹: [https://www.cnblogs.com/stingbo/p/14259539.html](https://www.cnblogs.com/stingbo/p/14259539.html)
-        - [https://github.com/gitbitex/gitbitex-spot](https://github.com/gitbitex/gitbitex-spot)
-            - 衍伸引擎(基於Java實作): [https://github.com/gitbitex/gitbitex-new](https://github.com/gitbitex/gitbitex-new)
-        - [https://github.com/xiiiew/lightning-engine](https://github.com/xiiiew/lightning-engine)
-    - 撮合引擎緩存與MQ概念: [https://zhuanlan.zhihu.com/p/95033793](https://zhuanlan.zhihu.com/p/95033793)
-    - 撮合引擎核心概念: [https://zhuanlan.zhihu.com/p/92274215](https://zhuanlan.zhihu.com/p/92274215)
-    - 證券交易系統撮合引擎的設計: [https://www.liaoxuefeng.com/article/1452011784503329](https://www.liaoxuefeng.com/article/1452011784503329)
-    - 證券交易系統設計與開發: [https://www.liaoxuefeng.com/article/1185272483766752](https://www.liaoxuefeng.com/article/1185272483766752)
-    - 交易系統架構演進之路（一）：1.0版: [https://juejin.cn/post/6900444689628037133](https://juejin.cn/post/6900444689628037133)
-        - 可以看看他系列文演進的思路
-- 票卷系統
-    - [https://segmentfault.com/a/1190000022566350?fbclid=IwAR1TbX7lbN0AKpvIXpWIo2a2iE_dlyUUM37oJP4wahPnBe-5S_jTvvKS5yc](https://segmentfault.com/a/1190000022566350?fbclid=IwAR1TbX7lbN0AKpvIXpWIo2a2iE_dlyUUM37oJP4wahPnBe-5S_jTvvKS5yc)
+## 運維
 
 ---
 
-$$
-\Large\textsf{效率工具}
-$$
+## 交易系統
+
+- 撮合引擎:
+    - [https://himanshu-007.medium.com/simple-rate-limiter-in-golang-using-token-bucket-algorithm-388d0596d1e4](https://himanshu-007.medium.com/simple-rate-limiter-in-golang-using-token-bucket-algorithm-388d0596d1e4)
+    - [https://github.com/yzimhao/trading_engine](https://github.com/yzimhao/trading_engine)
+        - 相關介紹: [https://yzimhao.github.io/trading_engine/](https://yzimhao.github.io/trading_engine/)
+    - [https://github.com/stingbo/gome](https://github.com/stingbo/gome)
+        - 相關介紹: [https://www.cnblogs.com/stingbo/p/14259539.html](https://www.cnblogs.com/stingbo/p/14259539.html)
+    - [https://github.com/gitbitex/gitbitex-spot](https://github.com/gitbitex/gitbitex-spot)
+        - 衍伸引擎(基於Java實作): [https://github.com/gitbitex/gitbitex-new](https://github.com/gitbitex/gitbitex-new)
+    - [https://github.com/xiiiew/lightning-engine](https://github.com/xiiiew/lightning-engine)
+- 撮合引擎緩存與MQ概念: [https://zhuanlan.zhihu.com/p/95033793](https://zhuanlan.zhihu.com/p/95033793)
+- 撮合引擎核心概念: [https://zhuanlan.zhihu.com/p/92274215](https://zhuanlan.zhihu.com/p/92274215)
+- 證券交易系統撮合引擎的設計: [https://www.liaoxuefeng.com/article/1452011784503329](https://www.liaoxuefeng.com/article/1452011784503329)
+- 證券交易系統設計與開發: [https://www.liaoxuefeng.com/article/1185272483766752](https://www.liaoxuefeng.com/article/1185272483766752)
+- 交易系統架構演進之路（一）：1.0版: [https://juejin.cn/post/6900444689628037133](https://juejin.cn/post/6900444689628037133)
+    - 可以看看他系列文演進的思路
+
+## 票卷系統
+
+- [https://segmentfault.com/a/1190000022566350?fbclid=IwAR1TbX7lbN0AKpvIXpWIo2a2iE_dlyUUM37oJP4wahPnBe-5S_jTvvKS5yc](https://segmentfault.com/a/1190000022566350?fbclid=IwAR1TbX7lbN0AKpvIXpWIo2a2iE_dlyUUM37oJP4wahPnBe-5S_jTvvKS5yc)
+
+---
+
+## 實用工具
 
 - 圖形工具
     - [mermaid](https://mermaid.js.org/)
