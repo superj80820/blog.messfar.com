@@ -53,44 +53,44 @@ Patterns ，我選定[圖解 Java 多線程設計模式](https://www.tenlong.com
 並且會把相關的 Code 放在此 [go-design-patterns](https://github.com/superj80820/go-design-patterns)。
 
 - 工具
-  - [UML Class diagrams，在抽象世界的具現化寶石](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-13-uml-class-diagrams)
+  - [UML Class diagrams，在抽象世界的具現化寶石](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-uml-class-diagrams)
 - 設計模式
   - Concurrency 併發模式: 如何讓程式高併發，並足夠安全，不產生 race
   condition、dead lock 等問題
-      - [Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern)
-      - [Read-Write-Lock Pattern，三人成虎，一人打虎！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-3-read-write-lock-pattern)
-      - [Guarded Suspension Pattern，你不會死的，因為我會保護你](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern)
-      - [Thread-Per-Message Pattern，預備…發射！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-5-thread-per-message-pattern)
-      - [Feature Pattern，我把未來託付給你了！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-6-feature-pattern)
-      - [Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-7-fan-out-fan-In-pattern)
-      - [Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-8-producer-consumer-pattern)
-      - [Worker Pool Pattern，就。很。Pool。](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-9-worker-pool-pattern)
-      - [Two-phase Termination Pattern，我就跟你說不要亂拔電源！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern)
-      - [Thread-Specific Storage Pattern，高併發的多重宇宙空間](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern)
-      - [Concurrency Patterns 融會貫通＋ Graceful Shutdown，正確關閉各個宇宙的次元門](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-12-concurrency-patterns)
+      - [Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-single-threaded-execution-pattern)
+      - [Read-Write-Lock Pattern，三人成虎，一人打虎！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-read-write-lock-pattern)
+      - [Guarded Suspension Pattern，你不會死的，因為我會保護你](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-guarded-suspension-pattern)
+      - [Thread-Per-Message Pattern，預備…發射！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-per-message-pattern)
+      - [Feature Pattern，我把未來託付給你了！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-feature-pattern)
+      - [Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-fan-out-fan-In-pattern)
+      - [Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-producer-consumer-pattern)
+      - [Worker Pool Pattern，就。很。Pool。](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-worker-pool-pattern)
+      - [Two-phase Termination Pattern，我就跟你說不要亂拔電源！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-two-phase-termination-pattern)
+      - [Thread-Specific Storage Pattern，高併發的多重宇宙空間](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-specific-storage-pattern)
+      - [Concurrency Patterns 融會貫通＋ Graceful Shutdown，正確關閉各個宇宙的次元門](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-concurrency-patterns)
   - Creational 建立模式: 如何有效的生產與管理物件
-      - [Factory Method Pattern，把複雜的邏輯拆分至小工廠中](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-15-factory-method-pattern)
-      - [Abstract Factory Pattern，膜拜那個工廠之神吧！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-16-abstract-factory-pattern)
-      - [Builder Pattern，一步一步的建造產品](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-17-builder-pattern)
-      - [Singleton Pattern，致獨一無二的你](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-18-singleton-pattern)
-      - [Prototype Pattern，創建物件不再從頭開始浪費時間](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-19-prototype-pattern)
+      - [Factory Method Pattern，把複雜的邏輯拆分至小工廠中](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-factory-method-pattern)
+      - [Abstract Factory Pattern，膜拜那個工廠之神吧！](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-abstract-factory-pattern)
+      - [Builder Pattern，一步一步的建造產品](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-builder-pattern)
+      - [Singleton Pattern，致獨一無二的你](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-singleton-pattern)
+      - [Prototype Pattern，創建物件不再從頭開始浪費時間](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-prototype-pattern)
   - Structural 結構模式: 如何設計出低耦合的物件關係
-      - [Adapter Pattern，統一不同產品的介面](go-design-pattern-20-adapter-pattern)
-      - [Bridge Pattern，橋接人間與魔界的次元門](go-design-pattern-21-bridge-pattern)
-      - [Decorator Pattern，巧妙的在方法上增加新功能](go-design-pattern-22-decorator-pattern)
-      - [Composite Pattern，管理有層次的物件們](go-design-pattern-24-composite-pattern)
-      - [Facade Pattern，由統一的入口介面來做事](go-design-pattern-23-facade-pattern)
-      - [Flyweight Pattern，節省空間的好幫手](go-design-pattern-25-flyweight-pattern)
-      - [Proxy Pattern，讓代理人操作實際的物件](go-design-pattern-26-proxy-pattern)
+      - [Adapter Pattern，統一不同產品的介面](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-adapter-pattern)
+      - [Bridge Pattern，橋接人間與魔界的次元門](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-bridge-pattern)
+      - [Decorator Pattern，巧妙的在方法上增加新功能](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-decorator-pattern)
+      - [Composite Pattern，管理有層次的物件們](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-composite-pattern)
+      - [Facade Pattern，由統一的入口介面來做事](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-facade-pattern)
+      - [Flyweight Pattern，節省空間的好幫手](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-flyweight-pattern)
+      - [Proxy Pattern，讓代理人操作實際的物件](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-proxy-pattern)
   - Behavioral 行為模式: 如何讓物件互動的更彈性、有效率，職責更清晰
-      - [Chain of Responsibility，將實作透過串串樂串起來](go-design-pattern-27-chain-of-responsibility)
-      - [Command Pattern，將動作已指令一個一個完成](go-design-pattern-28-command-pattern)
+      - [Chain of Responsibility，將實作透過串串樂串起來](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-chain-of-responsibility)
+      - [Command Pattern，將動作已指令一個一個完成](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-command-pattern)
       - Interpreter
-      - [Iterator Pattern，迭代各種不同的物件](go-design-pattern-29-iterator-pattern)
+      - [Iterator Pattern，迭代各種不同的物件](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-iterator-pattern)
       - Mediator
       - Memento
       - Observer
       - State
-      - [Strategy Pattern，選定不同的策略來執行](go-design-pattern-30-strategy-pattern)
+      - [Strategy Pattern，選定不同的策略來執行](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-strategy-pattern)
       - Template Methodbehavior
       - Visitor

@@ -5469,10 +5469,10 @@ condition、dead lock 等問題
         </item>
         <item>
         <title>Clean Architecture 的力量！無痛從 Restful API 轉換成 gRPC Server</title>
-        <link>http://localhost:1313/post/k8s/go-clean-architecture/</link>
+        <link>http://localhost:1313/post/k8s-note/go-clean-architecture/</link>
         <pubDate>Sun, 27 Sep 2020 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/k8s/go-clean-architecture/</guid>
+        <guid>http://localhost:1313/post/k8s-note/go-clean-architecture/</guid>
         <description>&lt;p&gt;本文章同時發佈於：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY13&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
