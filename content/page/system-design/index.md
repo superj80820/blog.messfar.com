@@ -50,10 +50,10 @@ image: 'exchange-arch.png'
 
 ### 教學
 
-- [如何設計一個撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-2-architecture)
-- [Sequence 定序模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-3-sequence)
-- [Asset 資產模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-4-asset)
-- [Order 訂單模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-5-order)
-- [Matching 撮合模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-6-matching)
-- [Clearing 清算模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-7-clearing)
-- [整合撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-8-integration)
+1. [如何設計一個撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-2-architecture)
+2. [Sequence 定序模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-3-sequence)
+3. [Asset 資產模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-4-asset)
+4. [Order 訂單模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-5-order)
+5. [Matching 撮合模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-6-matching)
+6. [Clearing 清算模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-7-clearing)
+7. [整合撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-8-integration)
