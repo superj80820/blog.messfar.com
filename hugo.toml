@@ -16,6 +16,8 @@ enable_site_search = true
     type = "search"
   [[params.widgets.homepage]]
     type = "archives"
+  [[params.widgets.homepage]]
+    type = "tag-cloud"
   [[params.widgets.page]]
     type = "toc"
   [params.article]

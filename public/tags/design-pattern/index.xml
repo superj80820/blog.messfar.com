@@ -6,13 +6,107 @@
         <description>Recent content in Design-Pattern on York Lin&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Design Pattern 系列</title>
-        <link>http://localhost:1313/post/design-pattern/</link>
-        <pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate>
+        <lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Adapter Pattern，統一不同產品的介面</title>
+        <link>http://localhost:1313/post/design-pattern/adapter-pattern%E7%B5%B1%E4%B8%80%E4%B8%8D%E5%90%8C%E7%94%A2%E5%93%81%E7%9A%84%E4%BB%8B%E9%9D%A2-b514f7bcd0044a86a81d67ae4479cb0f/</link>
+        <pubDate>Mon, 20 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/</guid>
-        <description></description>
+        <guid>http://localhost:1313/post/design-pattern/adapter-pattern%E7%B5%B1%E4%B8%80%E4%B8%8D%E5%90%8C%E7%94%A2%E5%93%81%E7%9A%84%E4%BB%8B%E9%9D%A2-b514f7bcd0044a86a81d67ae4479cb0f/</guid>
+        <description>&lt;p&gt;Creational 建立相關的 patterns 已經告一段落，接下來要進入 Structural 結構模式相關的 patterns，主要目的在&lt;strong&gt;設計出低耦合的物件關係&lt;/strong&gt;，會以 Adapter Pattern 作為開頭。&lt;/p&gt;
+&lt;h2 id=&#34;什麼是-adapter-pattern&#34;&gt;什麼是 Adapter Pattern？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;將不同產品不一樣的使用方式統一，讓使用者可以用統一的方式使用不同產品&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;市面上有很多不同的 usb 接口，比如 type-a、type-c、micro b 等等，如果我的電腦只支援 type-a
+的接口，那就需要一個&lt;strong&gt;adapter(轉換器)&lt;/strong&gt;，將 type-c、micro b&lt;strong&gt;不同&lt;/strong&gt;的接口轉換成&lt;strong&gt;統一&lt;/strong&gt;的。&lt;/p&gt;
+&lt;p&gt;在寫 code 也是一樣，系統建構時，如果有多個不同的套件，處理的情境相同，但方法名稱不同，建議以 Adapter Pattern 來實作，除了可以彈性的替換套件，也可以避免系統被套件綁定。&lt;/p&gt;
+&lt;p&gt;什麼是系統被套件綁定？就好像電腦所有的接口都插著 type-a 的設備，而從來不用 adapter，如果有天需使用 type-c 的設備，那除了把插口拔除換成 adapter 別無他法，那如果我們事先就是用 adater 插著電腦，未來要用 type-c 的設備就不需要拔除的這一段(即更改實作)&lt;/p&gt;
+&lt;p&gt;UML 圖：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/p7vnnZc.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/p7vnnZc.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;圖中&lt;code&gt;AdapteeA{}&lt;/code&gt;、&lt;code&gt;AdapteeB{}&lt;/code&gt;都有各自的方法，如果 user 要使用他們，必須要有一個統一規範，即是&lt;code&gt;Target&lt;/code&gt; interface，&lt;code&gt;AdapterA{}&lt;/code&gt;、&lt;code&gt;AdapterB{}&lt;/code&gt;遵循著規範將&lt;code&gt;AdapteeA{}&lt;/code&gt;、&lt;code&gt;AdapteeB{}&lt;/code&gt;各自的方法轉換成&lt;code&gt;Target.methodForUser()&lt;/code&gt;方法給 user 使用。&lt;/p&gt;
+&lt;h2 id=&#34;問題情境&#34;&gt;問題情境
+&lt;/h2&gt;&lt;p&gt;使用者買了一個格鬥遊戲大搖，這個大搖可供 PS5 與 Switch 兩種不同的晶片使用，廠商在訊號傳遞上，需設計一個 adapter 轉換器，將大搖的指令可套用在不同的裝置上。&lt;/p&gt;
+&lt;h2 id=&#34;解決方式&#34;&gt;解決方式
+&lt;/h2&gt;&lt;p&gt;UML 圖如下:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/7zaEdsL.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/7zaEdsL.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;相關的 code 在&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/go-design-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github - go-design-patterns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;code 如下:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SignalHandler&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ClickButton&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;ClickPS5Button&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click ps5 button&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5Adapter&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5Machine&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5Adapter&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;ClickButton&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5Machine&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ClickPS5Button&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Switch&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Switch&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;ClickSwitchButton&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click switch button&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SwitchAdapter&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;switchMachine&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Switch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SwitchAdapter&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;ClickButton&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;switchMachine&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ClickSwitchButton&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CreateSignalHandler&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;platform&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;SignalHandler&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SignalHandler&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;switch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;platform&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ps5&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt; = &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5Adapter&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5Machine&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5&lt;/span&gt;{},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;switch&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt; = &lt;span style=&#34;color:#a6e22e&#34;&gt;SwitchAdapter&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;switchMachine&lt;/span&gt;: &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Switch&lt;/span&gt;{},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CreateSignalHandler&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ps5&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;signalHandler&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ClickButton&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;由於&lt;code&gt;PS5{}&lt;/code&gt;、&lt;code&gt;Switch{}&lt;/code&gt;各自點選按鈕的方式不同，所以設計了&lt;code&gt;PS5Adapter{}&lt;/code&gt;、&lt;code&gt;SwitchApater{}&lt;/code&gt;並依照&lt;code&gt;SignalHandler&lt;/code&gt;interface 將功能轉換實作至&lt;code&gt;ClickButton()&lt;/code&gt;，使用者由於只依賴&lt;code&gt;SignalHandler&lt;/code&gt; interface，不需理解實際&lt;code&gt;PS5{}&lt;/code&gt;、&lt;code&gt;Switch{}&lt;/code&gt;的點選按鈕的方式，只需選擇平台後創建好&lt;code&gt;signalHandler&lt;/code&gt;，並點選即可。&lt;/p&gt;
+</description>
         </item>
         
     </channel>

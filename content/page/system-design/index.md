@@ -1,6 +1,6 @@
 ---
 title: 'System Design 系列'
-date: 2024-03-25T00:00:00+08:00
+date: 2024-03-24T00:00:00+08:00
 tags:
     - 'go'
     - 'system-design'
@@ -10,7 +10,7 @@ menu:
         weight: 10
         params:
             icon: archives
-image: 'exchange-arch.png'
+image: 'cover.png'
 ---
 
 ## Clean Architecture
