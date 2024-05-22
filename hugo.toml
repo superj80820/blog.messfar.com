@@ -10,6 +10,7 @@ enable_site_search = true
 
 [params]
   mainSections = [ "post" ]
+  favicon = '/favicon.ico'
   featuredImageField = "image"
   rssFullContent = true
   [[params.widgets.homepage]]
