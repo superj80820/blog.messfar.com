@@ -1,27 +1,47 @@
 baseURL = 'https://blog.messfar.com/'
 languageCode = 'zh-tw'
 title = "York Lin's blog"
-theme = 'archie'
+theme = "hugo-theme-stack"
 
-disqusShortname = "superj80820"
+enable_site_search = true
+
+[services.disqus]
+  shortname = 'superj80820'
 
 [params]
-	mode="toggle"
+  mainSections = [ "post" ]
+  featuredImageField = "image"
+  rssFullContent = true
+  [[params.widgets.homepage]]
+    type = "search"
+  [[params.widgets.homepage]]
+    type = "archives"
+  [[params.widgets.page]]
+    type = "toc"
+  [params.article]
+    toc = true
+    readingTime = true
+  [params.sidebar]
+    emoji = "⚾"
+  [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "avatar.jpg"
 
-[menus]
-  [[menus.main]]
-    name = 'Golang 設計模式'
-    url = '/tags/design-pattern/'
-    weight = 10
-  [[menus.main]]
-    name = 'Golang 系統設計'
-    url = '/tags/system-design/'
-    weight = 11
-  [[menus.main]]
-    name = '文章分類'
-    url = "/tags"
-    weight = 20
-  [[menus.main]]
-    name = '關於我'
-    pageRef = '/about-me'
-    weight = 30
+# [menus]
+#   [[menus.main]]
+#     name = 'Golang 設計模式'
+#     url = '/posts/design-patterns-1-introduction'
+#     weight = 10
+#   [[menus.main]]
+#     name = 'Golang 系統設計'
+#     url = '/posts/system-design-1-introduction'
+#     weight = 11
+#   [[menus.main]]
+#     name = '文章分類'
+#     url = "/tags"
+#     weight = 20
+#   [[menus.main]]
+#     name = '關於我'
+#     pageRef = '/about-me'
+#     weight = 30

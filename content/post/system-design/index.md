@@ -1,8 +1,17 @@
-+++
-title = 'Golang 系統設計'
-date = 2024-03-25T00:00:00+08:00
-tags = ['go', 'system-design']
-+++
+---
+title: 'System Design 系列'
+date: 2024-03-25T00:00:00+08:00
+tags:
+    - 'go'
+    - 'system-design'
+menu:
+    main:
+        name: System Design 系列
+        weight: 10
+        params:
+            icon: archives
+image: 'exchange-arch.png'
+---
 
 ## Clean Architecture
 

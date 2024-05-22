@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Design-Pattern on York Lin&#39;s blog</title>
-    <link>http://localhost:1313/tags/design-pattern/</link>
-    <description>Recent content in Design-Pattern on York Lin&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Tue, 21 May 2024 17:53:03 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>design-pattern-first</title>
-      <link>http://localhost:1313/posts/design-pattern-first/</link>
-      <pubDate>Tue, 21 May 2024 17:53:03 +0800</pubDate>
-      <guid>http://localhost:1313/posts/design-pattern-first/</guid>
-      <description></description>
-    </item>
-  </channel>
+    <channel>
+        <title>Design-Pattern on York Lin&#39;s blog</title>
+        <link>http://localhost:1313/tags/design-pattern/</link>
+        <description>Recent content in Design-Pattern on York Lin&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language>
+        <lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Design Pattern 系列</title>
+        <link>http://localhost:1313/post/design-pattern/</link>
+        <pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/design-pattern/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>
