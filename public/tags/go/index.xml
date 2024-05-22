@@ -1264,10 +1264,10 @@ Date: March 31, 2024&lt;/p&gt;
         </item>
         <item>
         <title>Strategy Pattern，選定不同的策略來執行</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-30-strategy-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-strategy-pattern/</link>
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-30-strategy-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-strategy-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-strategy-pattern&#34;&gt;什麼是 Strategy Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;設計相同介面但不同實作的物件，再由使用端以此介面去選擇要使用何種物件&lt;/p&gt;
@@ -1353,10 +1353,10 @@ Date: March 31, 2024&lt;/p&gt;
         </item>
         <item>
         <title>Iterator Pattern，迭代各種不同的物件</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-29-iterator-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-iterator-pattern/</link>
         <pubDate>Wed, 29 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-29-iterator-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-iterator-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-iterator-pattern&#34;&gt;什麼是 Iterator Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將不同資料物件透過一致的方式取得其中的元素&lt;/p&gt;
@@ -1443,10 +1443,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Command Pattern，將動作已指令一個一個完成</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-28-command-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-command-pattern/</link>
         <pubDate>Tue, 28 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-28-command-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-command-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-command-pattern&#34;&gt;什麼是 Command Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將建立指令與實際執行分離&lt;/p&gt;
@@ -1554,10 +1554,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Chain of Responsibility，將實作透過串串樂串起來</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-27-chain-of-responsibility/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-chain-of-responsibility/</link>
         <pubDate>Mon, 27 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-27-chain-of-responsibility/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-chain-of-responsibility/</guid>
         <description>&lt;h2 id=&#34;什麼是-chain-of-responsibility&#34;&gt;什麼是 Chain of Responsibility？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將 if…else 的行為抽象成物件，將 if…else
@@ -1670,10 +1670,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Proxy Pattern，讓代理人操作實際的物件</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-26-proxy-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-proxy-pattern/</link>
         <pubDate>Sun, 26 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-26-proxy-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-proxy-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-proxy-pattern&#34;&gt;什麼是 Proxy Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;讓代理物件操作實際物件，讓代理物件處理與業務邏輯無關的事情&lt;/p&gt;
@@ -1760,10 +1760,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Flyweight Pattern，節省空間的好幫手</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-25-flyweight-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-flyweight-pattern/</link>
         <pubDate>Sat, 25 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-25-flyweight-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-flyweight-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-flyweight-pattern&#34;&gt;什麼是 Flyweight Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將可共用的物件共用以節省空間&lt;/p&gt;
@@ -1822,10 +1822,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Composite Pattern，管理有層次的物件們</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-24-composite-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-composite-pattern/</link>
         <pubDate>Fri, 24 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-24-composite-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-composite-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-composite-pattern&#34;&gt;什麼是 Composite Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將單一與多個物件的使用方式統一給使用者使用&lt;/p&gt;
@@ -1908,10 +1908,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Facade Pattern，由統一的入口介面來做事</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-23-facade-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-facade-pattern/</link>
         <pubDate>Thu, 23 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-23-facade-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-facade-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-facade-pattern&#34;&gt;什麼是 Facade Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;實作不依賴多個類別，而是依賴介面，並把這些類別實作在此介面&lt;/p&gt;
@@ -1992,10 +1992,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Decorator Pattern，巧妙的在方法上增加新功能</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-22-decorator-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-decorator-pattern/</link>
         <pubDate>Wed, 22 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-22-decorator-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-decorator-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-decorator-pattern&#34;&gt;什麼是 Decorator Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;不以靜態繼承而是用動態組合的方式增加功能&lt;/p&gt;
@@ -2087,10 +2087,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Bridge Pattern，橋接人間與魔界的次元門</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-21-bridge-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-bridge-pattern/</link>
         <pubDate>Tue, 21 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-21-bridge-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-bridge-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-bridge-pattern&#34;&gt;什麼是 Bridge Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將抽像與實現分離，讓彼此變化互不影響&lt;/p&gt;
@@ -2205,10 +2205,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Adapter Pattern，統一不同產品的介面</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-20-adapter-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-adapter-pattern/</link>
         <pubDate>Mon, 20 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-20-adapter-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-adapter-pattern/</guid>
         <description>&lt;p&gt;Creational 建立相關的 patterns 已經告一段落，接下來要進入 Structural 結構模式相關的 patterns，主要目的在&lt;strong&gt;設計出低耦合的物件關係&lt;/strong&gt;，會以 Adapter Pattern 作為開頭。&lt;/p&gt;
 &lt;h2 id=&#34;什麼是-adapter-pattern&#34;&gt;什麼是 Adapter Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
@@ -2307,10 +2307,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Prototype Pattern，創建物件不再從頭開始浪費時間</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-19-prototype-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-prototype-pattern/</link>
         <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-19-prototype-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-prototype-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-prototype-pattern&#34;&gt;什麼是 Prototype Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將物件以拷貝的方式建立&lt;/p&gt;
@@ -2410,10 +2410,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Singleton Pattern，致獨一無二的你</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-18-singleton-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-singleton-pattern/</link>
         <pubDate>Sat, 18 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-18-singleton-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-singleton-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-singleton-pattern&#34;&gt;什麼是 Singleton Pattern？
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/BBvzTg9.jpg&#34;
 	
@@ -2529,10 +2529,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Builder Pattern，一步一步的建造產品</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-17-builder-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-builder-pattern/</link>
         <pubDate>Fri, 17 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-17-builder-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-builder-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-builder-pattern&#34;&gt;什麼是 Builder Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將建造物件的實作拆開，由使用者覺得要選擇建造什麼，來一步一步建造&lt;/p&gt;
@@ -2679,10 +2679,10 @@ function 不至於過長，&lt;/p&gt;
         </item>
         <item>
         <title>Abstract Factory Pattern，膜拜那個工廠之神吧！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-abstract-factory-pattern/</link>
         <pubDate>Thu, 16 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-abstract-factory-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -2866,10 +2866,10 @@ function 不至於過長，&lt;/p&gt;
         </item>
         <item>
         <title>Factory Method Pattern，把複雜的邏輯拆分至小工廠中</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-factory-method-pattern/</link>
         <pubDate>Wed, 15 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-factory-method-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -2998,10 +2998,10 @@ Factory Pattern 是一樣使用者依照&lt;code&gt;GameMachine&lt;/code&gt;inte
         </item>
         <item>
         <title>Simple Factory Pattern，把複雜細節隱藏的小工廠</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-14-simple-factory-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-simple-factory-pattern/</link>
         <pubDate>Tue, 14 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-14-simple-factory-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-simple-factory-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -3148,10 +3148,10 @@ CPU、顯示晶片與加裝光碟機」，使用者只需要獲得此產品就�
         </item>
         <item>
         <title>UML Class diagrams，在抽象世界的具現化寶石</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-13-uml-class-diagrams/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-uml-class-diagrams/</link>
         <pubDate>Mon, 13 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-13-uml-class-diagrams/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-uml-class-diagrams/</guid>
         <description>&lt;p&gt;在 DAY 1 ~ DAY 12 已經介紹了我認知常見的 concurrency patterns，接下來就要介紹經典的 GoF design pattern，但在這之前我認為可以先介紹一些 design pattern
 的基本概念供大家有相同的認知，以便更清楚的講解，所以接下來幾篇會說明這些概念。&lt;/p&gt;
 &lt;p&gt;本篇要介紹的是 UML Class diagrams！&lt;/p&gt;
@@ -3449,10 +3449,10 @@ CPU、顯示晶片與加裝光碟機」，使用者只需要獲得此產品就�
         </item>
         <item>
         <title>Concurrency Patterns 融會貫通＋Graceful Shutdown，正確關閉各個宇宙的次元門</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-12-concurrency-patterns/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-concurrency-patterns/</link>
         <pubDate>Sun, 12 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-12-concurrency-patterns/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-concurrency-patterns/</guid>
         <description>&lt;p&gt;前 11 天已經將常見的 concurrency patterns 介紹完畢，今天我們要介紹的不是 patterns，而是在實務使用 concurrency patterns 要特別注意的事項「Graceful Shutdown」。&lt;/p&gt;
 &lt;p&gt;在實務的系統設計中，會將多個 pattern
 融合以應付複雜的需求，本篇程式碼很長，如果範例過於複雜，建議可以先看 DAY 7 ~ DAY 11 的文章，先以較小的知識點來理解 pattern，再進入多個 pattern
@@ -3848,10 +3848,10 @@ Pattern，透過&lt;code&gt;ProduceToNewsSender()&lt;/code&gt;送至&lt;code&gt;
         </item>
         <item>
         <title>Thread-Specific Storage Pattern，高併發的多重宇宙空間</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-thread-specific-storage-pattern/</link>
         <pubDate>Sat, 11 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-thread-specific-storage-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-thread-specific-storage-pattern&#34;&gt;什麼是 Thread-Specific Storage Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;為每個 goroutine 擁有自己的儲存空間，供不同的情境識別與使用&lt;/p&gt;
@@ -3961,10 +3961,10 @@ stack 的特性來實作，並不是很穩定的作法。&lt;/p&gt;
         </item>
         <item>
         <title>Two-phase Termination Pattern，我就跟你說不要亂拔電源！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-two-phase-termination-pattern/</link>
         <pubDate>Fri, 10 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-two-phase-termination-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-two-phase-termination-pattern&#34;&gt;什麼是 Two-phase Termination Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;分兩個階段關閉 goroutine，第一階段先結束 goroutine 的程式邏輯，第二階段再結束 goroutine 本身&lt;/p&gt;
@@ -4085,10 +4085,10 @@ code，即在 terminal 顯示&lt;code&gt;bye bye&lt;/code&gt;提示並關閉程�
         </item>
         <item>
         <title>Worker Pool Pattern，就。很。Pool。</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-9-worker-pool-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-worker-pool-pattern/</link>
         <pubDate>Thu, 09 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-9-worker-pool-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-worker-pool-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-worker-pool-pattern&#34;&gt;什麼是 Worker Pool Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;設定好 pool 的 goroutine 數量，預先啟動多個 goroutine，把 job
@@ -4243,10 +4243,10 @@ code，即在 terminal 顯示&lt;code&gt;bye bye&lt;/code&gt;提示並關閉程�
         </item>
         <item>
         <title>Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-8-producer-consumer-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-producer-consumer-pattern/</link>
         <pubDate>Wed, 08 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-8-producer-consumer-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-producer-consumer-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-producer-consumer-pattern&#34;&gt;什麼是 Producer Consumer Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;多個 Producer(生產者)提供任 Job 任務，多個 Consumer(消費者)消費任務&lt;/p&gt;
@@ -4408,10 +4408,10 @@ Consumer 程序間沒有直接關係，他們只依賴 queue，即可解耦。&l
         </item>
         <item>
         <title>Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-7-fan-out-fan-in-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-fan-out-fan-in-pattern/</link>
         <pubDate>Tue, 07 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-7-fan-out-fan-in-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-fan-out-fan-in-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-fan-out-fan-in-pattern&#34;&gt;什麼是 Fan-Out Fan-In Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將 input 由一個 producer 分發多個 goroutine 運行，再將多個 task goroutine 運行的結果由一個 consumer 收集資料合併為 output&lt;/p&gt;
@@ -4587,10 +4587,10 @@ consumer 不再接收 input，就像是&lt;strong&gt;收集&lt;/strong&gt;資料
         </item>
         <item>
         <title>Feature Pattern，我把未來託付給你了！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-6-feature-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-feature-pattern/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-6-feature-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-feature-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-future-pattern&#34;&gt;什麼是 Future Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;呼叫者將 task 交給 goroutine 執行，執行完畢後 goroutine 將 task 運行得到的結果傳回呼叫者&lt;/p&gt;
@@ -4719,10 +4719,10 @@ goroutine，但這邊僅是啟動，並取得一個中間物件 channel，等到
         </item>
         <item>
         <title>Thread-Per-Message Pattern，預備...發射！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-5-thread-per-message-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-thread-per-message-pattern/</link>
         <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-5-thread-per-message-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-thread-per-message-pattern/</guid>
         <description>&lt;p&gt;在 DAY 2~DAY 4 我們使用到了 goroutine、lock、channel，主要目標在&lt;strong&gt;保護&lt;/strong&gt;併發下的資料避免 race condition，接下來會以提高執行&lt;strong&gt;效率&lt;/strong&gt;為討論重點。&lt;/p&gt;
 &lt;h2 id=&#34;什麼是-thread-per-message-pattern&#34;&gt;什麼是 Thread-Per-Message Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
@@ -4822,10 +4822,10 @@ goroutine，但這邊僅是啟動，並取得一個中間物件 channel，等到
         </item>
         <item>
         <title>Guarded Suspension Pattern，你不會死的，因為我會保護你</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-guarded-suspension-pattern/</link>
         <pubDate>Sat, 04 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-guarded-suspension-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-guarded-suspension-pattern&#34;&gt;什麼是 Guarded Suspension Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;如果 thread 執行時條件不符，就停下等待，等到條件符合時再開始開始執行&lt;/p&gt;
@@ -4963,10 +4963,10 @@ memory」，我們需透過&lt;code&gt;Lock()&lt;/code&gt;、&lt;code&gt;Unlock(
         </item>
         <item>
         <title>Read-Write-Lock Pattern，三人成虎，一人打虎！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-3-read-write-lock-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-read-write-lock-pattern/</link>
         <pubDate>Fri, 03 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-3-read-write-lock-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-read-write-lock-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-read-write-lock-pattern&#34;&gt;什麼是 Read-Write-Lock Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;多讀單寫。將 lock 分為 read 與 write 兩種，讓 lock 效能更佳，read
@@ -5203,10 +5203,10 @@ like.count，所以可以同時運行，系統只需注意 A、D 要改變 like.
         </item>
         <item>
         <title>Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-single-threaded-execution-pattern/</link>
         <pubDate>Thu, 02 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-single-threaded-execution-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-single-threaded-execution-pattern&#34;&gt;什麼是 Single Threaded Execution Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;透過 lock，只會有一個 goroutine 執行此區段的程式碼&lt;/p&gt;
@@ -5389,7 +5389,7 @@ Patterns ，我選定&lt;a class=&#34;link&#34; href=&#34;https://www.tenlong.co
 &lt;ul&gt;
 &lt;li&gt;工具
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-13-uml-class-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-uml-class-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;UML Class diagrams，在抽象世界的具現化寶石&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -5398,346 +5398,83 @@ Patterns ，我選定&lt;a class=&#34;link&#34; href=&#34;https://www.tenlong.co
 &lt;li&gt;Concurrency 併發模式: 如何讓程式高併發，並足夠安全，不產生 race
 condition、dead lock 等問題
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-single-threaded-execution-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-3-read-write-lock-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-read-write-lock-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Read-Write-Lock Pattern，三人成虎，一人打虎！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-guarded-suspension-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Guarded Suspension Pattern，你不會死的，因為我會保護你&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-5-thread-per-message-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-per-message-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Thread-Per-Message Pattern，預備…發射！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-6-feature-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-feature-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Feature Pattern，我把未來託付給你了！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-7-fan-out-fan-In-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-fan-out-fan-In-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-8-producer-consumer-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-producer-consumer-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-9-worker-pool-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-worker-pool-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Worker Pool Pattern，就。很。Pool。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-two-phase-termination-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Two-phase Termination Pattern，我就跟你說不要亂拔電源！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-specific-storage-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Thread-Specific Storage Pattern，高併發的多重宇宙空間&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-12-concurrency-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-concurrency-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Concurrency Patterns 融會貫通＋ Graceful Shutdown，正確關閉各個宇宙的次元門&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Creational 建立模式: 如何有效的生產與管理物件
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-15-factory-method-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-factory-method-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Factory Method Pattern，把複雜的邏輯拆分至小工廠中&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-16-abstract-factory-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-abstract-factory-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Abstract Factory Pattern，膜拜那個工廠之神吧！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-17-builder-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-builder-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Builder Pattern，一步一步的建造產品&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-18-singleton-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-singleton-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Singleton Pattern，致獨一無二的你&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-19-prototype-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-prototype-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Prototype Pattern，創建物件不再從頭開始浪費時間&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Structural 結構模式: 如何設計出低耦合的物件關係
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-20-adapter-pattern&#34; &gt;Adapter Pattern，統一不同產品的介面&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-21-bridge-pattern&#34; &gt;Bridge Pattern，橋接人間與魔界的次元門&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-22-decorator-pattern&#34; &gt;Decorator Pattern，巧妙的在方法上增加新功能&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-24-composite-pattern&#34; &gt;Composite Pattern，管理有層次的物件們&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-23-facade-pattern&#34; &gt;Facade Pattern，由統一的入口介面來做事&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-25-flyweight-pattern&#34; &gt;Flyweight Pattern，節省空間的好幫手&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-26-proxy-pattern&#34; &gt;Proxy Pattern，讓代理人操作實際的物件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-adapter-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Adapter Pattern，統一不同產品的介面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-bridge-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bridge Pattern，橋接人間與魔界的次元門&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-decorator-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Decorator Pattern，巧妙的在方法上增加新功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-composite-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Composite Pattern，管理有層次的物件們&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-facade-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facade Pattern，由統一的入口介面來做事&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-flyweight-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flyweight Pattern，節省空間的好幫手&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-proxy-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Proxy Pattern，讓代理人操作實際的物件&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Behavioral 行為模式: 如何讓物件互動的更彈性、有效率，職責更清晰
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-27-chain-of-responsibility&#34; &gt;Chain of Responsibility，將實作透過串串樂串起來&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-28-command-pattern&#34; &gt;Command Pattern，將動作已指令一個一個完成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-chain-of-responsibility&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chain of Responsibility，將實作透過串串樂串起來&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-command-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Pattern，將動作已指令一個一個完成&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Interpreter&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-29-iterator-pattern&#34; &gt;Iterator Pattern，迭代各種不同的物件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-iterator-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Iterator Pattern，迭代各種不同的物件&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mediator&lt;/li&gt;
 &lt;li&gt;Memento&lt;/li&gt;
 &lt;li&gt;Observer&lt;/li&gt;
 &lt;li&gt;State&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-30-strategy-pattern&#34; &gt;Strategy Pattern，選定不同的策略來執行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-strategy-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Strategy Pattern，選定不同的策略來執行&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Template Methodbehavior&lt;/li&gt;
 &lt;li&gt;Visitor&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Clean Architecture 的力量！無痛從 Restful API 轉換成 gRPC Server</title>
-        <link>http://localhost:1313/post/k8s-note/go-clean-architecture/</link>
-        <pubDate>Sun, 27 Sep 2020 00:00:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/post/k8s-note/go-clean-architecture/</guid>
-        <description>&lt;p&gt;本文章同時發佈於：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY13&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github(包含程式碼)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/%E9%AB%92%E6%A1%B6%E5%AD%90/day13-clean-architecture-%E7%9A%84%E5%8A%9B%E9%87%8F-%E7%84%A1%E7%97%9B%E5%BE%9E-restful-api-%E8%BD%89%E6%8F%9B%E6%88%90-grpc-server-e1b64346aa14&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Medium&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10245345&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;iT
-邦幫忙&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;文章為自己的經驗與夥伴整理的內容，設計沒有標準答案，如有可以改進的地方，請告訴我，我會盡我所能的修改，謝謝大家～
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;p&gt;大家好，還記得在 DAY6~DAY8 的 Clean Architecture 篇，使用了 Restful
-API 來設計，但是後來的介紹卻都是 gRPC，其實最大的目的是要介紹本篇，將
-Restful API Server 換成 gRPC Server，而使用 Clean Architecture
-你可以&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;讓換框架或引擎只需更動 delivery 層，不引響商務邏輯(Business
-Logic)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;如果對原本的 Server 設計不清楚，可以先閱讀以下文章:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[DAY6&lt;/li&gt;
-&lt;li&gt;你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;[DAY7&lt;/li&gt;
-&lt;li&gt;奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture
-實作篇](&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;[DAY8&lt;/li&gt;
-&lt;li&gt;讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture
-測試篇](&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY08&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY08&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;怎麼-run-起來&#34;&gt;怎麼 run 起來？
-&lt;/h2&gt;&lt;p&gt;建議大家直接先把 Server run 起來，這樣會比較有感覺，&lt;/p&gt;
-&lt;p&gt;請先 clone &lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github-Example-Code&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd DAY13/go-server
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ docker-compose up
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/47oRFAw.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/47oRFAw.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;並且安裝&lt;a class=&#34;link&#34; href=&#34;https://github.com/uw-labs/bloomrpc/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Bloomrpc&lt;/a&gt;來測試，他類似於
-gRPC 界的 Postman。(當然你也可以寫 gRPC client
-來測試，不過這邊以有介面的 tool 來測試)&lt;/p&gt;
-&lt;p&gt;安裝好後，可以在左上方的&lt;code&gt;+按鈕&lt;/code&gt;直接 import protobuf 的
-schema，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/IRVx7kr.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/IRVx7kr.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;修改好 gRPC Server 的 URL
-成&lt;code&gt;localhost:6000&lt;/code&gt;後，點選&lt;code&gt;綠色test&lt;/code&gt;按鈕，即可看到
-gRPC Server 已經處理完你的請求，並且回傳 response。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/JGhVBLw.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/JGhVBLw.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Ｗ ow，可以使用 gRPC Server 了，接下來將介紹實作，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/QDH05Tt.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/QDH05Tt.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;真的有那麼少？！看看就知道 XD。&lt;/p&gt;
-&lt;h2 id=&#34;實作-grpc-schema&#34;&gt;實作 gRPC schema
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-protobuf&#34; data-lang=&#34;protobuf&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;syntax &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;proto3&amp;#34;&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; digimon;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;service&lt;/span&gt; Digimon {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;rpc&lt;/span&gt; Create (CreateRequest) &lt;span style=&#34;color:#66d9ef&#34;&gt;returns&lt;/span&gt; (CreateResponse) {}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;rpc&lt;/span&gt; Query (QueryRequest) &lt;span style=&#34;color:#66d9ef&#34;&gt;returns&lt;/span&gt; (QueryResponse) {}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;rpc&lt;/span&gt; Foster (FosterRequest) &lt;span style=&#34;color:#66d9ef&#34;&gt;returns&lt;/span&gt; (FosterResponse) {}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Requestsmessage CreateRequest {
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;QueryRequest&lt;/span&gt; {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;FosterRequest&lt;/span&gt; {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Food&lt;/span&gt; {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  }&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  Food food &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Responsesmessage CreateResponse {
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; status &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;QueryResponse&lt;/span&gt; {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; id &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; status &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;FosterResponse&lt;/span&gt; {&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 Digimon service 裡分別新增 3 個
-method，分別是&lt;code&gt;Create&lt;/code&gt;、&lt;code&gt;Query&lt;/code&gt;、&lt;code&gt;Foster&lt;/code&gt;，你可以把他理解為
-Restful API 的三個 API，並且分別給 3 個 method 定義好 request 與
-response，在 code 中必須符合此 protobuf schema 來實作。&lt;/p&gt;
-&lt;h2 id=&#34;實作-grpc-server&#34;&gt;實作 gRPC Server
-&lt;/h2&gt;&lt;p&gt;在 digimon/delivery 資料夾新增一個 grpc 資料夾，他代表了另一種引擎的
-deliver，&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/CQ0hVDM.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/CQ0hVDM.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;實作&lt;code&gt;grpc_handler.go&lt;/code&gt;，&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// go-server/digimon/delivery/grpc/grpc_handler.go
-
-// ... 其他程式碼
-
-// DigimonHandler ...
-type DigimonHandler struct {
-    DigimonUsecase domain.DigimonUsecase
-    DietUsecase    domain.DietUsecase
-    pb.UnimplementedDigimonServer
-}
-
-// NewDigimonHandler ...
-func NewDigimonHandler(s *grpcLib.Server, digimonUsecase domain.DigimonUsecase, dietUsecase domain.DietUsecase) {
-    handler := &amp;amp;DigimonHandler{
-        DigimonUsecase: digimonUsecase,
-        DietUsecase:    dietUsecase,
-    }
-
-    pb.RegisterDigimonServer(s, handler)
-}
-
-// Create ...
-func (d *DigimonHandler) Create(ctx context.Context, req *pb.CreateRequest) (*pb.CreateResponse, error) {
-    aDigimon := domain.Digimon{
-        Name: req.GetName(),
-    }
-    if err := d.DigimonUsecase.Store(ctx, &amp;amp;aDigimon); err != nil {
-        logrus.Error(err)
-        return nil, status.Errorf(codes.Internal, &amp;#34;Internal error. Store failed&amp;#34;)
-    }
-
-    return &amp;amp;pb.CreateResponse{
-        Id:     aDigimon.ID,
-        Name:   aDigimon.Name,
-        Status: aDigimon.Status,
-    }, nil
-}
-
-// ... 其他程式碼
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在&lt;code&gt;Create()&lt;/code&gt;中，使用&lt;code&gt;req.GetName()&lt;/code&gt;獲得
-Name，並以&lt;code&gt;DigimonUsecase&lt;/code&gt;的&lt;code&gt;Store()&lt;/code&gt;來儲存，與原本
-Restful API 的 code 做比較，&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// go-server/digimon/delivery/http/digimon_handler.go
-
-// ... 其他程式碼
-
-// DigimonHandler ...
-type DigimonHandler struct {
-    DigimonUsecase domain.DigimonUsecase
-    DietUsecase    domain.DietUsecase
-}
-
-// NewDigimonHandler ...
-func NewDigimonHandler(e *gin.Engine, digimonUsecase domain.DigimonUsecase, dietUsecase domain.DietUsecase) {
-    handler := &amp;amp;DigimonHandler{
-        DigimonUsecase: digimonUsecase,
-        DietUsecase:    dietUsecase,
-    }
-
-    e.GET(&amp;#34;/api/v1/digimons/:digimonID&amp;#34;, handler.GetDigimonByDigimonID)
-    e.POST(&amp;#34;/api/v1/digimons&amp;#34;, handler.PostToCreateDigimon)
-    e.POST(&amp;#34;/api/v1/digimons/:digimonID/foster&amp;#34;, handler.PostToFosterDigimon)
-}
-
-// PostToCreateDigimon ...
-func (d *DigimonHandler) PostToCreateDigimon(c *gin.Context) {
-    var body swagger.DigimonInfoRequest
-    if err := c.BindJSON(&amp;amp;body); err != nil {
-        logrus.Error(err)
-        c.JSON(500, &amp;amp;swagger.ModelError{
-            Code:    3000,
-            Message: &amp;#34;Internal error. Parsing failed&amp;#34;,
-        })
-        return
-    }
-    aDigimon := domain.Digimon{
-        Name: body.Name,
-    }
-    if err := d.DigimonUsecase.Store(c, &amp;amp;aDigimon); err != nil {
-        logrus.Error(err)
-        c.JSON(500, &amp;amp;swagger.ModelError{
-            Code:    3000,
-            Message: &amp;#34;Internal error. Store failed&amp;#34;,
-        })
-        return
-    }
-
-    c.JSON(200, swagger.DigimonInfo{
-        Id:     aDigimon.ID,
-        Name:   aDigimon.Name,
-        Status: aDigimon.Status,
-    })
-}
-
-// ... 其他程式碼
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;除了交付參數給 Usecase 的方式不同，其他邏輯完全相同！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;對的沒錯，在 Restful API
-中需要以&lt;code&gt;swagger.DigimonInfoRequest&lt;/code&gt;搭配&lt;code&gt;c.BindJSON()&lt;/code&gt;來獲得
-JSON
-Body，最後也以&lt;code&gt;DigimonUsecase&lt;/code&gt;的&lt;code&gt;Store()&lt;/code&gt;來儲存，所以，&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Delivery 層單純就是在實作如何把引擎的資訊交付給 Usecase 層&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;很實用對吧！雖然當我知道這樣的架構的時候，我內心偏向下圖 XD:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/6BnCS83.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://i.imgur.com/6BnCS83.png&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;del&gt;滿滿的重構時間&lt;/del&gt;)&lt;/p&gt;
-&lt;p&gt;謝謝你的閱讀～&lt;/p&gt;
-&lt;h2 id=&#34;參考&#34;&gt;參考
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/uw-labs/bloomrpc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;bloomrpc&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

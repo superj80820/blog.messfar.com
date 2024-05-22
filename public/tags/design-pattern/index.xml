@@ -8,10 +8,10 @@
         <language>zh-tw</language>
         <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Strategy Pattern，選定不同的策略來執行</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-30-strategy-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-strategy-pattern/</link>
         <pubDate>Thu, 30 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-30-strategy-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-strategy-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-strategy-pattern&#34;&gt;什麼是 Strategy Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;設計相同介面但不同實作的物件，再由使用端以此介面去選擇要使用何種物件&lt;/p&gt;
@@ -97,10 +97,10 @@
         </item>
         <item>
         <title>Iterator Pattern，迭代各種不同的物件</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-29-iterator-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-iterator-pattern/</link>
         <pubDate>Wed, 29 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-29-iterator-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-iterator-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-iterator-pattern&#34;&gt;什麼是 Iterator Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將不同資料物件透過一致的方式取得其中的元素&lt;/p&gt;
@@ -187,10 +187,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Command Pattern，將動作已指令一個一個完成</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-28-command-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-command-pattern/</link>
         <pubDate>Tue, 28 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-28-command-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-command-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-command-pattern&#34;&gt;什麼是 Command Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將建立指令與實際執行分離&lt;/p&gt;
@@ -298,10 +298,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Chain of Responsibility，將實作透過串串樂串起來</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-27-chain-of-responsibility/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-chain-of-responsibility/</link>
         <pubDate>Mon, 27 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-27-chain-of-responsibility/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-chain-of-responsibility/</guid>
         <description>&lt;h2 id=&#34;什麼是-chain-of-responsibility&#34;&gt;什麼是 Chain of Responsibility？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將 if…else 的行為抽象成物件，將 if…else
@@ -414,10 +414,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Proxy Pattern，讓代理人操作實際的物件</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-26-proxy-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-proxy-pattern/</link>
         <pubDate>Sun, 26 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-26-proxy-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-proxy-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-proxy-pattern&#34;&gt;什麼是 Proxy Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;讓代理物件操作實際物件，讓代理物件處理與業務邏輯無關的事情&lt;/p&gt;
@@ -504,10 +504,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Flyweight Pattern，節省空間的好幫手</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-25-flyweight-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-flyweight-pattern/</link>
         <pubDate>Sat, 25 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-25-flyweight-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-flyweight-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-flyweight-pattern&#34;&gt;什麼是 Flyweight Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將可共用的物件共用以節省空間&lt;/p&gt;
@@ -566,10 +566,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Composite Pattern，管理有層次的物件們</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-24-composite-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-composite-pattern/</link>
         <pubDate>Fri, 24 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-24-composite-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-composite-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-composite-pattern&#34;&gt;什麼是 Composite Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將單一與多個物件的使用方式統一給使用者使用&lt;/p&gt;
@@ -652,10 +652,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Facade Pattern，由統一的入口介面來做事</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-23-facade-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-facade-pattern/</link>
         <pubDate>Thu, 23 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-23-facade-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-facade-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-facade-pattern&#34;&gt;什麼是 Facade Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;實作不依賴多個類別，而是依賴介面，並把這些類別實作在此介面&lt;/p&gt;
@@ -736,10 +736,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Decorator Pattern，巧妙的在方法上增加新功能</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-22-decorator-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-decorator-pattern/</link>
         <pubDate>Wed, 22 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-22-decorator-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-decorator-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-decorator-pattern&#34;&gt;什麼是 Decorator Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;不以靜態繼承而是用動態組合的方式增加功能&lt;/p&gt;
@@ -831,10 +831,10 @@ index 往後移。&lt;/p&gt;
         </item>
         <item>
         <title>Bridge Pattern，橋接人間與魔界的次元門</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-21-bridge-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-bridge-pattern/</link>
         <pubDate>Tue, 21 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-21-bridge-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-bridge-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-bridge-pattern&#34;&gt;什麼是 Bridge Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將抽像與實現分離，讓彼此變化互不影響&lt;/p&gt;
@@ -949,10 +949,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Adapter Pattern，統一不同產品的介面</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-20-adapter-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-adapter-pattern/</link>
         <pubDate>Mon, 20 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-20-adapter-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-adapter-pattern/</guid>
         <description>&lt;p&gt;Creational 建立相關的 patterns 已經告一段落，接下來要進入 Structural 結構模式相關的 patterns，主要目的在&lt;strong&gt;設計出低耦合的物件關係&lt;/strong&gt;，會以 Adapter Pattern 作為開頭。&lt;/p&gt;
 &lt;h2 id=&#34;什麼是-adapter-pattern&#34;&gt;什麼是 Adapter Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
@@ -1051,10 +1051,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Prototype Pattern，創建物件不再從頭開始浪費時間</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-19-prototype-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-prototype-pattern/</link>
         <pubDate>Sun, 19 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-19-prototype-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-prototype-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-prototype-pattern&#34;&gt;什麼是 Prototype Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將物件以拷貝的方式建立&lt;/p&gt;
@@ -1154,10 +1154,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Singleton Pattern，致獨一無二的你</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-18-singleton-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-singleton-pattern/</link>
         <pubDate>Sat, 18 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-18-singleton-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-singleton-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-singleton-pattern&#34;&gt;什麼是 Singleton Pattern？
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/BBvzTg9.jpg&#34;
 	
@@ -1273,10 +1273,10 @@ PS5。&lt;/p&gt;
         </item>
         <item>
         <title>Builder Pattern，一步一步的建造產品</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-17-builder-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-builder-pattern/</link>
         <pubDate>Fri, 17 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-17-builder-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-builder-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-builder-pattern&#34;&gt;什麼是 Builder Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將建造物件的實作拆開，由使用者覺得要選擇建造什麼，來一步一步建造&lt;/p&gt;
@@ -1423,10 +1423,10 @@ function 不至於過長，&lt;/p&gt;
         </item>
         <item>
         <title>Simple Factory Pattern，把複雜細節隱藏的小工廠</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-14-simple-factory-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-simple-factory-pattern/</link>
         <pubDate>Tue, 14 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-14-simple-factory-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-simple-factory-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -1573,10 +1573,10 @@ CPU、顯示晶片與加裝光碟機」，使用者只需要獲得此產品就�
         </item>
         <item>
         <title>UML Class diagrams，在抽象世界的具現化寶石</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-13-uml-class-diagrams/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-uml-class-diagrams/</link>
         <pubDate>Mon, 13 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-13-uml-class-diagrams/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-uml-class-diagrams/</guid>
         <description>&lt;p&gt;在 DAY 1 ~ DAY 12 已經介紹了我認知常見的 concurrency patterns，接下來就要介紹經典的 GoF design pattern，但在這之前我認為可以先介紹一些 design pattern
 的基本概念供大家有相同的認知，以便更清楚的講解，所以接下來幾篇會說明這些概念。&lt;/p&gt;
 &lt;p&gt;本篇要介紹的是 UML Class diagrams！&lt;/p&gt;
@@ -1874,10 +1874,10 @@ CPU、顯示晶片與加裝光碟機」，使用者只需要獲得此產品就�
         </item>
         <item>
         <title>Concurrency Patterns 融會貫通＋Graceful Shutdown，正確關閉各個宇宙的次元門</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-12-concurrency-patterns/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-concurrency-patterns/</link>
         <pubDate>Sun, 12 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-12-concurrency-patterns/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-concurrency-patterns/</guid>
         <description>&lt;p&gt;前 11 天已經將常見的 concurrency patterns 介紹完畢，今天我們要介紹的不是 patterns，而是在實務使用 concurrency patterns 要特別注意的事項「Graceful Shutdown」。&lt;/p&gt;
 &lt;p&gt;在實務的系統設計中，會將多個 pattern
 融合以應付複雜的需求，本篇程式碼很長，如果範例過於複雜，建議可以先看 DAY 7 ~ DAY 11 的文章，先以較小的知識點來理解 pattern，再進入多個 pattern
@@ -2273,10 +2273,10 @@ Pattern，透過&lt;code&gt;ProduceToNewsSender()&lt;/code&gt;送至&lt;code&gt;
         </item>
         <item>
         <title>Thread-Specific Storage Pattern，高併發的多重宇宙空間</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-thread-specific-storage-pattern/</link>
         <pubDate>Sat, 11 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-thread-specific-storage-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-thread-specific-storage-pattern&#34;&gt;什麼是 Thread-Specific Storage Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;為每個 goroutine 擁有自己的儲存空間，供不同的情境識別與使用&lt;/p&gt;
@@ -2386,10 +2386,10 @@ stack 的特性來實作，並不是很穩定的作法。&lt;/p&gt;
         </item>
         <item>
         <title>Two-phase Termination Pattern，我就跟你說不要亂拔電源！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-two-phase-termination-pattern/</link>
         <pubDate>Fri, 10 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-two-phase-termination-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-two-phase-termination-pattern&#34;&gt;什麼是 Two-phase Termination Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;分兩個階段關閉 goroutine，第一階段先結束 goroutine 的程式邏輯，第二階段再結束 goroutine 本身&lt;/p&gt;
@@ -2510,10 +2510,10 @@ code，即在 terminal 顯示&lt;code&gt;bye bye&lt;/code&gt;提示並關閉程�
         </item>
         <item>
         <title>Worker Pool Pattern，就。很。Pool。</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-9-worker-pool-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-worker-pool-pattern/</link>
         <pubDate>Thu, 09 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-9-worker-pool-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-worker-pool-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-worker-pool-pattern&#34;&gt;什麼是 Worker Pool Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;設定好 pool 的 goroutine 數量，預先啟動多個 goroutine，把 job
@@ -2668,10 +2668,10 @@ code，即在 terminal 顯示&lt;code&gt;bye bye&lt;/code&gt;提示並關閉程�
         </item>
         <item>
         <title>Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-8-producer-consumer-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-producer-consumer-pattern/</link>
         <pubDate>Wed, 08 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-8-producer-consumer-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-producer-consumer-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-producer-consumer-pattern&#34;&gt;什麼是 Producer Consumer Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;多個 Producer(生產者)提供任 Job 任務，多個 Consumer(消費者)消費任務&lt;/p&gt;
@@ -2833,10 +2833,10 @@ Consumer 程序間沒有直接關係，他們只依賴 queue，即可解耦。&l
         </item>
         <item>
         <title>Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-7-fan-out-fan-in-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-fan-out-fan-in-pattern/</link>
         <pubDate>Tue, 07 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-7-fan-out-fan-in-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-fan-out-fan-in-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-fan-out-fan-in-pattern&#34;&gt;什麼是 Fan-Out Fan-In Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;將 input 由一個 producer 分發多個 goroutine 運行，再將多個 task goroutine 運行的結果由一個 consumer 收集資料合併為 output&lt;/p&gt;
@@ -3012,10 +3012,10 @@ consumer 不再接收 input，就像是&lt;strong&gt;收集&lt;/strong&gt;資料
         </item>
         <item>
         <title>Feature Pattern，我把未來託付給你了！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-6-feature-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-feature-pattern/</link>
         <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-6-feature-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-feature-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-future-pattern&#34;&gt;什麼是 Future Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;呼叫者將 task 交給 goroutine 執行，執行完畢後 goroutine 將 task 運行得到的結果傳回呼叫者&lt;/p&gt;
@@ -3144,10 +3144,10 @@ goroutine，但這邊僅是啟動，並取得一個中間物件 channel，等到
         </item>
         <item>
         <title>Thread-Per-Message Pattern，預備...發射！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-5-thread-per-message-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-thread-per-message-pattern/</link>
         <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-5-thread-per-message-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-thread-per-message-pattern/</guid>
         <description>&lt;p&gt;在 DAY 2~DAY 4 我們使用到了 goroutine、lock、channel，主要目標在&lt;strong&gt;保護&lt;/strong&gt;併發下的資料避免 race condition，接下來會以提高執行&lt;strong&gt;效率&lt;/strong&gt;為討論重點。&lt;/p&gt;
 &lt;h2 id=&#34;什麼是-thread-per-message-pattern&#34;&gt;什麼是 Thread-Per-Message Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
@@ -3247,10 +3247,10 @@ goroutine，但這邊僅是啟動，並取得一個中間物件 channel，等到
         </item>
         <item>
         <title>Guarded Suspension Pattern，你不會死的，因為我會保護你</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-guarded-suspension-pattern/</link>
         <pubDate>Sat, 04 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-guarded-suspension-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-guarded-suspension-pattern&#34;&gt;什麼是 Guarded Suspension Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;如果 thread 執行時條件不符，就停下等待，等到條件符合時再開始開始執行&lt;/p&gt;
@@ -3388,10 +3388,10 @@ memory」，我們需透過&lt;code&gt;Lock()&lt;/code&gt;、&lt;code&gt;Unlock(
         </item>
         <item>
         <title>Read-Write-Lock Pattern，三人成虎，一人打虎！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-3-read-write-lock-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-read-write-lock-pattern/</link>
         <pubDate>Fri, 03 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-3-read-write-lock-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-read-write-lock-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-read-write-lock-pattern&#34;&gt;什麼是 Read-Write-Lock Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;多讀單寫。將 lock 分為 read 與 write 兩種，讓 lock 效能更佳，read
@@ -3628,10 +3628,10 @@ like.count，所以可以同時運行，系統只需注意 A、D 要改變 like.
         </item>
         <item>
         <title>Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-single-threaded-execution-pattern/</link>
         <pubDate>Thu, 02 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-single-threaded-execution-pattern/</guid>
         <description>&lt;h2 id=&#34;什麼是-single-threaded-execution-pattern&#34;&gt;什麼是 Single Threaded Execution Pattern？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;透過 lock，只會有一個 goroutine 執行此區段的程式碼&lt;/p&gt;

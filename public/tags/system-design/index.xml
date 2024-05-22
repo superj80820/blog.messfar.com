@@ -1175,10 +1175,10 @@ Date: March 31, 2024&lt;/p&gt;
         </item>
         <item>
         <title>Abstract Factory Pattern，膜拜那個工廠之神吧！</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-abstract-factory-pattern/</link>
         <pubDate>Thu, 16 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-abstract-factory-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -1362,10 +1362,10 @@ Date: March 31, 2024&lt;/p&gt;
         </item>
         <item>
         <title>Factory Method Pattern，把複雜的邏輯拆分至小工廠中</title>
-        <link>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-factory-method-pattern/</link>
         <pubDate>Wed, 15 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-factory-method-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -1548,7 +1548,7 @@ Patterns ，我選定&lt;a class=&#34;link&#34; href=&#34;https://www.tenlong.co
 &lt;ul&gt;
 &lt;li&gt;工具
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-13-uml-class-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-uml-class-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;UML Class diagrams，在抽象世界的具現化寶石&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1557,72 +1557,1058 @@ Patterns ，我選定&lt;a class=&#34;link&#34; href=&#34;https://www.tenlong.co
 &lt;li&gt;Concurrency 併發模式: 如何讓程式高併發，並足夠安全，不產生 race
 condition、dead lock 等問題
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-single-threaded-execution-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-3-read-write-lock-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-read-write-lock-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Read-Write-Lock Pattern，三人成虎，一人打虎！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-guarded-suspension-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Guarded Suspension Pattern，你不會死的，因為我會保護你&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-5-thread-per-message-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-per-message-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Thread-Per-Message Pattern，預備…發射！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-6-feature-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-feature-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Feature Pattern，我把未來託付給你了！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-7-fan-out-fan-In-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-fan-out-fan-In-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-8-producer-consumer-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-producer-consumer-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-9-worker-pool-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-worker-pool-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Worker Pool Pattern，就。很。Pool。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-two-phase-termination-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Two-phase Termination Pattern，我就跟你說不要亂拔電源！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-thread-specific-storage-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Thread-Specific Storage Pattern，高併發的多重宇宙空間&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-12-concurrency-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-concurrency-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Concurrency Patterns 融會貫通＋ Graceful Shutdown，正確關閉各個宇宙的次元門&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Creational 建立模式: 如何有效的生產與管理物件
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-15-factory-method-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-factory-method-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Factory Method Pattern，把複雜的邏輯拆分至小工廠中&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-16-abstract-factory-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-abstract-factory-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Abstract Factory Pattern，膜拜那個工廠之神吧！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-17-builder-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-builder-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Builder Pattern，一步一步的建造產品&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-18-singleton-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-singleton-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Singleton Pattern，致獨一無二的你&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-19-prototype-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-prototype-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Prototype Pattern，創建物件不再從頭開始浪費時間&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Structural 結構模式: 如何設計出低耦合的物件關係
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-20-adapter-pattern&#34; &gt;Adapter Pattern，統一不同產品的介面&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-21-bridge-pattern&#34; &gt;Bridge Pattern，橋接人間與魔界的次元門&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-22-decorator-pattern&#34; &gt;Decorator Pattern，巧妙的在方法上增加新功能&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-24-composite-pattern&#34; &gt;Composite Pattern，管理有層次的物件們&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-23-facade-pattern&#34; &gt;Facade Pattern，由統一的入口介面來做事&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-25-flyweight-pattern&#34; &gt;Flyweight Pattern，節省空間的好幫手&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-26-proxy-pattern&#34; &gt;Proxy Pattern，讓代理人操作實際的物件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-adapter-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Adapter Pattern，統一不同產品的介面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-bridge-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bridge Pattern，橋接人間與魔界的次元門&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-decorator-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Decorator Pattern，巧妙的在方法上增加新功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-composite-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Composite Pattern，管理有層次的物件們&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-facade-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facade Pattern，由統一的入口介面來做事&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-flyweight-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flyweight Pattern，節省空間的好幫手&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-proxy-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Proxy Pattern，讓代理人操作實際的物件&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Behavioral 行為模式: 如何讓物件互動的更彈性、有效率，職責更清晰
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-27-chain-of-responsibility&#34; &gt;Chain of Responsibility，將實作透過串串樂串起來&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-28-command-pattern&#34; &gt;Command Pattern，將動作已指令一個一個完成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-chain-of-responsibility&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chain of Responsibility，將實作透過串串樂串起來&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-command-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Pattern，將動作已指令一個一個完成&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Interpreter&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-29-iterator-pattern&#34; &gt;Iterator Pattern，迭代各種不同的物件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-iterator-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Iterator Pattern，迭代各種不同的物件&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mediator&lt;/li&gt;
 &lt;li&gt;Memento&lt;/li&gt;
 &lt;li&gt;Observer&lt;/li&gt;
 &lt;li&gt;State&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-30-strategy-pattern&#34; &gt;Strategy Pattern，選定不同的策略來執行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-strategy-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Strategy Pattern，選定不同的策略來執行&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Template Methodbehavior&lt;/li&gt;
 &lt;li&gt;Visitor&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇</title>
+        <link>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part3/</link>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part3/</guid>
+        <description>&lt;p&gt;本文章同時發佈於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY08&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github(包含程式碼)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/%E9%AB%92%E6%A1%B6%E5%AD%90/day8-%E8%AE%93%E4%BD%A0%E7%9A%84-backend-%E8%90%AC%E7%89%A9%E7%9A%86%E8%99%9B-%E8%90%AC%E4%BA%8B%E7%9A%86%E5%8F%AF%E6%B8%AC-clean-architecture-%E6%B8%AC%E8%A9%A6%E7%AF%87-324fddd7db9a&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10241698&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iT 邦幫忙&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;文章為自己的經驗與夥伴整理的內容，設計沒有標準答案，如有可以改進的地方，請告訴我，我會盡我所能的修改，謝謝大家～
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;大家好，繼昨天&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY07&lt;/a&gt;的介紹後，Clean Architecture
+的威力大家已經見識到了，我們有著&lt;code&gt;獨立可替換的彈性架構&lt;/code&gt;，那還有沒有什麼優點呢？有的，就是:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高可測試(Testability)性&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一個簡單的測試&#34;&gt;一個簡單的測試
+&lt;/h2&gt;&lt;p&gt;你可能像我一樣曾經寫過這樣的程式碼:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GetName&lt;/span&gt;() &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;nameService&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;service&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewNameService&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nameService&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetName&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// ... 關於result的演算
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果有天要 unit test &lt;code&gt;result的演算&lt;/code&gt;，必須要使&lt;code&gt;nameService.GetName()&lt;/code&gt;會回傳固定值，而不是真的打到外部 API。&lt;/p&gt;
+&lt;p&gt;因為這樣如果測試出錯，我們才能精確的說是演算錯誤了，而非外部 API 出事了。&lt;/p&gt;
+&lt;p&gt;使&lt;code&gt;nameService.GetName()&lt;/code&gt;回傳固定值的做法稱為&lt;code&gt;mock&lt;/code&gt;，就是將&lt;code&gt;nameService.GetName()&lt;/code&gt;替換成一個&lt;code&gt;會回傳固定值的替身&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;但剛剛得程式碼，我們根本沒有機會進行替換動作，因為&lt;code&gt;nameService&lt;/code&gt;在&lt;code&gt;GetName&lt;/code&gt;裡頭產生，其實我們只要做一個簡單的小動作，就可以避免這個事情發生，就是:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;將所需的變數、實體、函示從外部帶入&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;logic&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GetName&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nameService&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;service&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Engine&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;nameService&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetName&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// ... 關於result的演算
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;那麼我們就可以從外部做一個假的&lt;code&gt;nameService&lt;/code&gt;丟入了，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;logic&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mock&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/assert&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;TestGetName&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;mockNameService&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewNameService&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;logic&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetName&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mockNameService&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Equal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;result&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;摁…這不就單純只是不要把東西寫死在 function 中嗎？&lt;/p&gt;
+&lt;p&gt;對，其實這就是依賴注入(DI)的精神之一，只不過為了要避免爆炸，所以又需要
+interface 去告訴不同 caller，此參數有哪些 function，這導致其他的理論產生。&lt;/p&gt;
+&lt;h2 id=&#34;如果是這樣的話那我不就每層都可以測試了&#34;&gt;如果是這樣的話那我不就每層都可以測試了？！
+&lt;/h2&gt;&lt;p&gt;是的，因為:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Clean Architecture 每層都用依賴注入(DI)，所以你每層都可以換成 Mock
+實體來測試&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接下來我們將說明每層測試的&lt;code&gt;重點&lt;/code&gt;與&lt;code&gt;第一次測試可能會困惑的地方&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;以下的 code 全部都在&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github-DAY07&lt;/a&gt;，可以直接 clone 下來參考對照會比較有感覺。&lt;/p&gt;
+&lt;h3 id=&#34;repository-層&#34;&gt;Repository 層
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;context&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;testing&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonPostgresqlRepo&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/digimon/repository/postgresql&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/assert&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;sqlmock&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gopkg.in/DATA-DOG/go-sqlmock.v1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/domain&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;TestGetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sqlmock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;New&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatalf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;an error &amp;#39;%s&amp;#39; was not expected when opening a stub database connection&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;:     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;69770f2d-933e-474d-8357-a2f8a9c874df&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;:   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Customer&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Good&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;rows&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sqlmock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewRows&lt;/span&gt;([]&lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;{&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status&amp;#34;&lt;/span&gt;}).
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;AddRow&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解4 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;SELECT id, name, status FROM digimons WHERE id =?&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解4 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ExpectQuery&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;WithArgs&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;69770f2d-933e-474d-8357-a2f8a9c874df&amp;#34;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;WillReturnRows&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;rows&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解5 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonPostgresqlRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewpostgresqlDigimonRepository&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;aDeit&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;TODO&lt;/span&gt;(), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;69770f2d-933e-474d-8357-a2f8a9c874df&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解5 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Equal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;aDeit&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;測試重點: 呼叫外部物件的方式是否正確，並非測試外部物件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - go-sqlmock製作一個假的mock DB&lt;/code&gt;: 如重點所說，我們並不關心外部 DB 的實際狀況，我們只關心&lt;code&gt;組出來的SQL command&lt;/code&gt;是否正確，所以可以用 go-sqlmock 做一個假的 DB。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 產生在mock DB需要的假資料&lt;/code&gt;: 既然要測試的是&lt;code&gt;GetByID&lt;/code&gt;的邏輯，那就必須先產生一組假的資料，讓&lt;code&gt;GetByID&lt;/code&gt;真的有資料可以撈取。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 將假資料轉換成row的struct&lt;/code&gt;: &lt;code&gt;講解2&lt;/code&gt;產生的資料是&lt;code&gt;domain.Digimon&lt;/code&gt;的 data struct，我們必須把它轉換成 row 的 data struct，才會符合真實對 DB 取 row 的狀況。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解4 - 預定mock DB會接收到何種SQL command&lt;/code&gt;: 這邊是重點，我們還必須預定好會回傳的值，mock DB 在接收到正確的 command 就會回傳預定的回傳值。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解5 - 把 mock DB 丟入後 Repository 層，驗證結果是否正確&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第一次測試時你可能會困惑：「我都把 DB 做成假的了，那我在測試什麼？」，答案是&lt;code&gt;SQL command是否組對&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;不論你用 gorm, SQL command，當傳進來的參數進行一連串運算後，最後一定會變為一個 SQL command，所以先設定好 mock DB&lt;code&gt;要接受什麼樣的command&lt;/code&gt;與&lt;code&gt;接收正確之後要回傳什麼&lt;/code&gt;是測試目的，並且最後可以用回傳的值來驗證是否是我們一開始設定好的來驗證。&lt;/p&gt;
+&lt;h3 id=&#34;usecase-層&#34;&gt;Usecase 層
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;context&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;testing&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/assert&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/mock&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;errors&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ucase&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/digimon/usecase&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/domain&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/domain/mocks&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;TestGetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; new(&lt;span style=&#34;color:#a6e22e&#34;&gt;mocks&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;:     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2e72c27e-0feb-44e1-89ef-3d58fd30a1b3&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;:   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Metrics&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Good&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Run&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Success&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;On&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GetByID&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Anything&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;MatchedBy&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; { &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;e9addf2d-8739-427a-8b30-2383b9b045b1&amp;#34;&lt;/span&gt; })).
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Return&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;Once&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解4 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ucase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonUsecase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;TODO&lt;/span&gt;(), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;e9addf2d-8739-427a-8b30-2383b9b045b1&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解5 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NoError&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NotNil&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AssertExpectations&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Run&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fail&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;On&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GetByID&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Anything&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;MatchedBy&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; { &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;e9addf2d-8739-427a-8b30-2383b9b045b1&amp;#34;&lt;/span&gt; })).
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Return&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;errors&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;New&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Get error&amp;#34;&lt;/span&gt;)).&lt;span style=&#34;color:#a6e22e&#34;&gt;Once&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ucase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonUsecase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;TODO&lt;/span&gt;(), &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;e9addf2d-8739-427a-8b30-2383b9b045b1&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Error&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Nil&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AssertExpectations&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;測試重點: 業務邏輯路線是否預期，並非測試 Repository 層&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Usecase 層沒有像 go-sqlmock 這樣通用的 mock 套件可以使用，但是還記得有 Domain 層定好的 interface 嗎？&lt;/p&gt;
+&lt;p&gt;我們可以使用&lt;a class=&#34;link&#34; href=&#34;https://github.com/vektra/mockery&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mockery&lt;/a&gt;，&lt;code&gt;依照定好的interface生產出mock物件&lt;/code&gt;，依照&lt;a class=&#34;link&#34; href=&#34;https://github.com/vektra/mockery&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mockery&lt;/a&gt;安裝好後:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd go-server/domain
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ mockery --all --keeptree
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/LOx4BCl.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/LOx4BCl.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;此時會多出 mocks 資料夾，這就是&lt;code&gt;mock data struct&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - 透過mocks資料夾產生mockDigimonRepo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 依照不同情境區分測試&lt;/code&gt;: Usecase 層比較會有 &lt;code&gt;不同的程式路線&lt;/code&gt;產生，例如：「數碼蛋參數如果沒帶的話、如果 DB 爆掉的話等等」，所以我們可以依照這些情境來區分測試&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 設定mockDigimonRepo預定接收的參數與回傳的資料&lt;/code&gt;: 這邊是最有趣的部分，你可以透過&lt;code&gt;.On()&lt;/code&gt;來定義 mockDigimonRepo 在 Usecase
+層裡被呼叫的時候預定要接收什麼，並且回傳資料供邏輯繼續使用。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解4 - 將mockDigimonRepo丟入Usecase層並實際運行&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解5 - 驗證Usecase回傳資料與mockDigimonRepo運行的結果&lt;/code&gt;:
+&lt;code&gt;.AssertExpectations&lt;/code&gt;要稍微注意一下，他是在驗證&lt;code&gt;.On()&lt;/code&gt;是否真的有被 call 到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在&lt;code&gt;講解3&lt;/code&gt;處，有著強大的功能:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.On()&lt;/code&gt;: 預期要呼叫什麼 function。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mock.MatchedBy()&lt;/code&gt;: 預期參數要長什麼樣子。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.Return()&lt;/code&gt;: 指定回傳值。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.Once()&lt;/code&gt;: 將此&lt;code&gt;.On&lt;/code&gt;效果只作用一次，這可以使你設定&lt;code&gt;同個function&lt;/code&gt;在&lt;code&gt;不同次的.On&lt;/code&gt;都有不同結果。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.Run()&lt;/code&gt;: 雖然沒有出現在此測試，但非常有用。Golang 有者許多&lt;code&gt;bind(&amp;amp;body)&lt;/code&gt;的指標綁定資料方式，這不是一進一出的方式，所以無法用&lt;code&gt;.Return()&lt;/code&gt;來指定結果。而&lt;code&gt;.Run()&lt;/code&gt;可以捕捉&lt;code&gt;bind(&amp;amp;body)&lt;/code&gt;中的&lt;code&gt;body&lt;/code&gt;指標位置，並且修改其內容，以達到指定結果的效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這使業務邏輯&lt;code&gt;所有的路線都可測試到&lt;/code&gt;，真的是非常有趣
+XD。&lt;/p&gt;
+&lt;h3 id=&#34;delivery-層&#34;&gt;Delivery 層
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bytes&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;encoding/json&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/domain&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/domain/mocks&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;net/http&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;net/http/httptest&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;testing&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonHandlerHttpDelivery&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;go-server/digimon/delivery/http&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/gin-gonic/gin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/assert&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github.com/stretchr/testify/mock&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;TestGetDigimonByDigimonID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;testing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;T&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;:     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;8c862535-6de2-4da2-ad21-c853e4343bd7&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;:   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;III&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;good&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonMarshal&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;json&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Marshal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonCase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; new(&lt;span style=&#34;color:#a6e22e&#34;&gt;mocks&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonCase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;On&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GetByID&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mock&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Anything&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;Return&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gin&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Default&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonHandlerHttpDelivery&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonHandler&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonCase&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GET&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/api/v1/digimons/:digimonID&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetDigimonByDigimonID&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;w&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;httptest&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewRecorder&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewRequest&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GET&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/api/v1/digimons/8c862535-6de2-4da2-ad21-c853e4343bd7&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ServeHTTP&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;w&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Equal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;w&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Code&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;assert&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Equal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;t&lt;/span&gt;, string(&lt;span style=&#34;color:#a6e22e&#34;&gt;mockDigimonMarshal&lt;/span&gt;), &lt;span style=&#34;color:#a6e22e&#34;&gt;w&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Body&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;String&lt;/span&gt;())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;測試重點: Delivery 層是否都正確接收了引擎的參數，並非測試 Usecase 層&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Delivery 層與 Usecase 層概念相同(事實上每層都相同)，都是創造上一層的 mock 實體，並專注測試此層的邏輯。&lt;/p&gt;
+&lt;p&gt;要注意的地方是，此測試並非真的起了一個 Server 以外部打 API 近來的方式測試。&lt;/p&gt;
+&lt;p&gt;而是在&lt;code&gt;講解1&lt;/code&gt;處之前設定好了 router 後，透過&lt;code&gt;httptest.NewRecorder()&lt;/code&gt;產生一個
+request，以&lt;code&gt;r.ServeHTTP(w, req)&lt;/code&gt;的方式丟入 Golang-Gin 的引擎中。&lt;/p&gt;
+&lt;h2 id=&#34;好用的測試指令&#34;&gt;好用的測試指令
+&lt;/h2&gt;&lt;p&gt;一次跑全部專案的測試，你可以把此指令放上 CI，這樣就可以在每次 CD 之前來測試一下！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd go-server
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ go test ./...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/RnuAZbr.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/RnuAZbr.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;cmd/main.go:31:3&lt;/code&gt;可以不必理會，那是因為讀取&lt;code&gt;.env&lt;/code&gt;失敗的問題，但跟測試無關)&lt;/p&gt;
+&lt;p&gt;但是否我們程式中有&lt;code&gt;沒測到的路線&lt;/code&gt;呢？這也是可以靠 Golang 自動偵測的，運行以下指令:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd go-server
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ go test -coverprofile cover.out ./...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ go tool cover -html&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;cover.out -o cover.html
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ open cover.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後會開啟此 html file，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/7RJSRWG.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/7RJSRWG.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到上方可以顯示測試覆蓋率(就是路線覆蓋率)，而下方會顯示沒測試到的 code，太神奇啦！&lt;/p&gt;
+&lt;h2 id=&#34;參考&#34;&gt;參考
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/bxcodec/go-clean-arch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bxcodec/go-clean-arch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/hackernoon/golang-clean-archithecture-efd6d7c43047&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Trying Clean Architecture on Golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/10516662/how-to-measure-code-coverage-in-golang&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unit testing - How to measure code coverage in Golang? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/16353016/how-to-go-test-all-tests-in-my-project&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;testing - How to &lt;code&gt;go test&lt;/code&gt; all tests in my project? - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/62165773/mock-interface-method-twice-with-different-input-and-output-using-testify&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unit testing - Mock interface method twice with different input and output
+using testify - Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ncona.com/2020/02/using-testify-for-golang-tests/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Using testify for Golang tests – ncona.com – Learning about computers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇</title>
+        <link>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part2/</link>
+        <pubDate>Mon, 21 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part2/</guid>
+        <description>&lt;p&gt;本文章同時發佈於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github(包含程式碼)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/%E9%AB%92%E6%A1%B6%E5%AD%90/day7-%E5%A5%94%E6%94%BE%E7%9A%84-golang-%E5%8D%BB%E9%9A%B1%E8%97%8F%E8%91%97%E6%9C%89%E7%B4%80%E5%BE%8B%E7%9A%84%E6%9E%B6%E6%A7%8B-clean-architecture-%E5%AF%A6%E4%BD%9C%E7%AF%87-dd41610dcde7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10241479&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iT 邦幫忙&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;文章為自己的經驗與夥伴整理的內容，設計沒有標準答案，如有可以改進的地方，請告訴我，我會盡我所能的修改，謝謝大家～
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;大家好，繼昨天&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY06&lt;/a&gt;的介紹後，相信大家已經對 Clean Architecture 的稍有概念了，接下來將介紹實作的部分，相信會讓各位更理解 Clean Architecture 的好處。&lt;/p&gt;
+&lt;p&gt;不過，你也可以先進入 DAY07 的資料夾底下把 Server 運行起來，這樣會比較有感覺。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd DAY07
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ docker-compose up
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;透過swagger-generatorhttpsgithubcomswagger-apiswagger-codegen來產生-server-介面&#34;&gt;透過&lt;a class=&#34;link&#34; href=&#34;https://github.com/swagger-api/swagger-codegen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;swagger-generator&lt;/a&gt;來產生 Server 介面
+&lt;/h2&gt;&lt;p&gt;進到&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY07&lt;/a&gt;的資料夾，使用 docker 運行以下指令:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ docker run --rm -v &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;PWD&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;:/local swaggerapi/swagger-codegen-cli-v3 generate &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -i /local/swagger.yaml &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -l go-server &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    -o /local/go-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;swagger-generator 會自動產生以下的 code:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/pnEyUT8.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/pnEyUT8.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接下來我們將一步一步實作成以下的 code:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/DcBLIhV.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/DcBLIhV.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;來實作吧&#34;&gt;來實作吧！
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/8Qj2ZR9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/8Qj2ZR9.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/xDYVMWG.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/xDYVMWG.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;請配合此兩張圖與並依照&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github 範例&lt;/a&gt;一步一步實作，&lt;/p&gt;
+&lt;h3 id=&#34;domain-層---規範一切的老大哥&#34;&gt;Domain 層 - 規範一切的老大哥
+&lt;/h3&gt;&lt;p&gt;如&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY06&lt;/a&gt;所說，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我們需要一個interface來告訴每個 call 的程式他們到底在 call 什麼&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以必須建立建立 diet(培育)與 digimon(數碼獸)兩個 interface 在 domain 層。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HOkkLhs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/HOkkLhs.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;以&lt;code&gt;digimon.go&lt;/code&gt;來說，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;context&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// Digimon ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;     &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`json:&amp;#34;id&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`json:&amp;#34;name&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`json:&amp;#34;status&amp;#34;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// DigimonRepository ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) (&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Store&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;UpdateStatus&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// DigimonUsecase ..
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) (&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Store&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;UpdateStatus&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - struct&lt;/code&gt;: 定義了數碼獸會有哪些的屬性，當程式裡面創建了數碼獸，就必定這些屬性都要擁有。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - repository interface&lt;/code&gt;: 定義了 repository 層的各種方法，我們必須要按照這個定義實作，不然就會爆炸，呼叫的程式只能呼叫這些定義好的方法，不然也會爆炸
+XD。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - usecase interface&lt;/code&gt;: 與&lt;code&gt;講解-2&lt;/code&gt;相同都是定義有哪些方法，不過他是定義 usecase 這個業務邏輯層。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;repository-層---任何外部資料都我來管&#34;&gt;Repository 層 - 任何外部資料都我來管
+&lt;/h3&gt;&lt;p&gt;定義好了 domain 層，就可以依照 domain 來設計 repository 層，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/UtfWMqy.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/UtfWMqy.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可以看到雖然 diet 與 digimon 目前都是用 PostgreSQL 來實作，但是我們都將 repository 獨立拉出來，以便將不同的 DB 功能做區分。&lt;/p&gt;
+&lt;p&gt;以下為核心部分:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;postgresqlDigimonRepository&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 &amp;amp;&amp;amp; 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// NewpostgresqlDigimonRepository ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NewpostgresqlDigimonRepository&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;postgresqlDigimonRepository&lt;/span&gt;{&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解4 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;postgresqlDigimonRepository&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) (&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;row&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;QueryRow&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;SELECT id, name, status FROM digimons WHERE id =$1&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;row&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Scan&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Error&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - 定義好需要哪些依賴注入(DI)&lt;/code&gt;: 這是 Clean Architecture 的核心之一，如&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY06&lt;/a&gt;所述，&lt;code&gt;將依賴的事物由外部注入，而不是寫死在裡頭&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 設計一個DI注入的function&lt;/code&gt;: 有了&lt;code&gt;講解1&lt;/code&gt;的定義，我們還需要一個注入的 function，將 db &lt;code&gt;確實&lt;/code&gt;注入。為什麼要這樣呢？因為你是可以這樣產生實例的&lt;code&gt;postgresqlDigimonRepository{}&lt;/code&gt;，可以發現其實沒有帶 db，但實際上還是可以運行。我們可以透過此 function 來避免這個情形。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 透過domain裡定義的interface來約束回傳值&lt;/code&gt;: &lt;code&gt;domain.DigimonRepository&lt;/code&gt;這個 interface 定義了有哪些方法&lt;code&gt;postgresqlDigimonRepository&lt;/code&gt;必須要實作，如&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY06&lt;/a&gt;所述，有了此 interface 才能讓呼叫的程式在&lt;code&gt;還沒run起來&lt;/code&gt;就知道&lt;code&gt;哪些呼叫方法存在&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解4 - 實作domain.DigimonRepository interface定義的方法&lt;/code&gt;: &lt;code&gt;GetByID&lt;/code&gt;要確實符合 interface 定義的方法，不然 Golang 在運行前就會報錯。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usecase-層---業務邏輯的管轄處&#34;&gt;Usecase 層 - 業務邏輯的管轄處
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/BVDeh0X.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/BVDeh0X.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// NewDigimonUsecase ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonUsecase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;du&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) (&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;du&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetByID&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Error&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - 定義依賴注入(DI)所需的Repository層&lt;/code&gt;: 注入了之後我們再對 Repository
+層做各種邏輯的操作，要注意的是，雖然目前只有注入所屬 PostgreSQL 的 repository，但如果 digimon 有很多不同的來源，比如說 MongoDB、Microservice 等等，我們可以注入更多 repository 來操作。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 設計確實注入的function&lt;/code&gt;: 與 repository 層一樣，需要一個 function 來要求要注入哪些 repository。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 依照domain.DigimonRepository interface來實作&lt;/code&gt;: 與 repository 層一樣，要以 interface 規範來實作，不過這裡是實作&lt;code&gt;業務邏輯&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;delivery-層---交付業務邏輯給引擎的跑腿工&#34;&gt;Delivery 層 - 交付業務邏輯給引擎的跑腿工
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/AJ6zmsa.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/AJ6zmsa.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;看到這邊大家應該已經發現，Clean Architecture 的重點就是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;定義好個層介面&lt;/li&gt;
+&lt;li&gt;依賴注入注入再注入&lt;/li&gt;
+&lt;li&gt;利用各種注入的實體來實作&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而 delivery 層就是在注入 usecase 層的實體，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// DigimonHandler ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonHandler&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;DietUsecase&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DietUsecase&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// NewDigimonHandler ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonHandler&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;gin&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Engine&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dietUsecase&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DietUsecase&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonHandler&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;DietUsecase&lt;/span&gt;:    &lt;span style=&#34;color:#a6e22e&#34;&gt;dietUsecase&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GET&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/api/v1/digimons/:digimonID&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetDigimonByDigimonID&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;POST&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/api/v1/digimons&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;PostToCreateDigimon&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;POST&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/api/v1/digimons/:digimonID/foster&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;handler&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;PostToFosterDigimon&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// PostToCreateDigimon ...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonHandler&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;PostToCreateDigimon&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;gin&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3-1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;swagger&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonInfoRequest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;BindJSON&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt;); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Error&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3-2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;JSON&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;swagger&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ModelError&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Code&lt;/span&gt;:    &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Message&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Internal error. Parsing failed&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;domain&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;body&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonUsecase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Store&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Error&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3-2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;JSON&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;swagger&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ModelError&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Code&lt;/span&gt;:    &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#a6e22e&#34;&gt;Message&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Internal error. Store failed&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3-3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;JSON&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;swagger&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonInfo&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Id&lt;/span&gt;:     &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ID&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;:   &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;aDigimon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - 定義依賴注入(DI)所需的Usecase層&lt;/code&gt;: 如 usecase 層，值得注意的是，由於 digimon 相關的 Restful API 除了有用到 DigimonUsecase，還有用到
+DietUsecase，所以必須都注入進來，&lt;code&gt;並沒有規定只能注入digimon相關的usecase&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 將Server引擎丟進來並且設定&lt;/code&gt;: 這裡比較特別，是透過把 Golang-Gin 的 Server 引擎傳進 function 內，再把各個 handler 與 route 交付(delivery)綁定。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 透過&lt;/code&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/swagger-api/swagger-codegen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;swagger-generator&lt;/a&gt;&lt;code&gt;來解析各個HTTP傳遞&lt;/code&gt;: 這裡終於要用到&lt;a class=&#34;link&#34; href=&#34;https://github.com/swagger-api/swagger-codegen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;swagger-generator&lt;/a&gt;的好處，可以看到不論是輸入處&lt;code&gt;講解3-1&lt;/code&gt;、回傳錯誤處&lt;code&gt;講解3-2&lt;/code&gt;、成功回傳處&lt;code&gt;講解3-3&lt;/code&gt;都可以透過&lt;code&gt;swagger.定義好的介面&lt;/code&gt;來解析。這樣就省去了很多定義時間，並且也減少了很多定義不小心寫錯的可能性！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最後把一切透過&#34;&gt;最後，把一切透過
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;cmd/main.go&lt;/code&gt; 跑起來吧！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Info&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HTTP server started&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解1 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;restfulHost&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;RESTFUL_HOST&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;restfulPort&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;RESTFUL_PORT&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dbHost&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;DB_HOST&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dbDatabase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;DB_DATABASE&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dbUser&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;DB_USER&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dbPassword&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viper&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;GetString&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;DB_PASSWORD&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解2 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Open&lt;/span&gt;(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;postgres&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Sprintf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;host=%s user=%s password=%s dbname=%s sslmode=disable&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dbHost&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dbUser&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dbPassword&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dbDatabase&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; = &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Ping&lt;/span&gt;(); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gin&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Default&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解3 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_digmonRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewpostgresqlDigimonRepository&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dietRepo&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_dietRepo&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewPostgresqlDietRepository&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解4 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_digimonUsecase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonUsecase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;digimonRepo&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;dietUsecase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_dietUsecase&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewDietUsecase&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;dietRepo&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解5 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;_digimonHandlerHttpDelivery&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;NewDigimonHandler&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;digimonUsecase&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;dietUsecase&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// !!! 講解6 !!!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;logrus&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Fatal&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;r&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Run&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;restfulHost&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;:&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;restfulPort&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// ... 其他程式碼
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;寫了那麼多依賴注入(DI)，最後我們需要再&lt;code&gt;main.go&lt;/code&gt;真的將這些實體注入，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;講解1 - 將config從外部依賴注入(DI)&lt;/code&gt;: 我們統一由 main.go 來讀取 config，因為這個 config 是&lt;code&gt;外部&lt;/code&gt;的，不該直接寫在各層裡頭，不然我們很難知道此層到底用了哪些 config，以避免：「嗯嗯？！怎麼爆炸了(查了 3 個小時後)，喔 damn 這層原來有要用這個 config 喔 Q 口 Q！」的狀況。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解2 - 初始化DB&lt;/code&gt;: 凡&lt;code&gt;外部&lt;/code&gt;依賴的東西，都在 main.go 中完成，不該在各層中完成，以避免不知道誰已經初始化了誰還沒。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解3 - 將外部依賴透過依賴注入(DI)來注入Repository層&lt;/code&gt;: 也是因為&lt;code&gt;外部&lt;/code&gt;的關係，我們也該將 DB 從外部注入，我們可以更可視此 DB 被哪些 repository 層使用了。除了 DB 以外其他 Microservice 的 caller、NoSQL 都該由外部注入，以便可視。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解4 - 將Repository層透過依賴注入(DI)來注入Usecase層&lt;/code&gt;: 同&lt;code&gt;講解3&lt;/code&gt;，對 usecase 層來說 repository 層也是外部依賴，注入下去！&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解5 - 將Usecase層透過依賴注入(DI)來注入Delivery層&lt;/code&gt;: 這裡要注意，除了注入以外，還有將 Golang-Gin 的引擎丟入，讓 delivery 層來綁定。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;講解 6 - 將Golang-Gin跑起來！&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;進入到我們 DAY07 資料夾底下，使用 docker-compose 把 Golang-Server 與
+DB 跑起來吧！&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd DAY07
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ docker-compose up
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/s42lh1p.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/s42lh1p.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Work!&lt;/p&gt;
+&lt;h2 id=&#34;透過insomnia-designerhttpsinsomniarestproductsdesigner測試一下&#34;&gt;透過&lt;a class=&#34;link&#34; href=&#34;https://insomnia.rest/products/designer/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Insomnia Designer&lt;/a&gt;測試一下
+&lt;/h2&gt;&lt;p&gt;創建數碼蛋，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/6mrhFsX.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/6mrhFsX.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;查看數碼蛋狀態，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/T0osPBU.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/T0osPBU.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;培育數碼獸，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/DWNakcv.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/DWNakcv.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果你有安裝&lt;a class=&#34;link&#34; href=&#34;https://eggerapps.at/postico/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Postico&lt;/a&gt;，可以去看看 diets table
+是不是真的有吃了食物，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jdfwHFc.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/jdfwHFc.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;嗯！滿滿的蘋果，看我還不飽炸你，亞古獸 XD ～&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ZKDEbdn.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/ZKDEbdn.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考&#34;&gt;參考
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/bxcodec/go-clean-arch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bxcodec/go-clean-arch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/hackernoon/golang-clean-archithecture-efd6d7c43047&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Trying
+Clean Architecture on Golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇</title>
+        <link>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part1/</link>
+        <pubDate>Sun, 20 Sep 2020 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part1/</guid>
+        <description>&lt;p&gt;本文章同時發佈於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github(包含程式碼)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/%E9%AB%92%E6%A1%B6%E5%AD%90/day6-%E4%BD%A0%E7%9A%84-backend-%E5%8F%AF%E4%BB%A5%E6%9B%B4%E6%9C%89%E5%BD%88%E6%80%A7%E4%B8%80%E9%BB%9E-clean-architecture-%E6%A6%82%E5%BF%B5%E7%AF%87-ab74d6d910f4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10240228&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iT 邦幫忙&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;文章為自己的經驗與夥伴整理的內容，設計沒有標準答案，如有可以改進的地方，請告訴我，我會盡我所能的修改，謝謝大家～
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;大家好，繼昨天&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY05&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DAY05&lt;/a&gt; Docs tool 的介紹後，我們要利用這些 Docs 來產生 Golang Server 介面，並以 Clean Architecture 實作。&lt;/p&gt;
+&lt;p&gt;但篇幅實在有點太長，我想這篇還是先介紹 Clean Architecture
+概念為較好，下篇有大量的 code，前方高能請小心 XD。&lt;/p&gt;
+&lt;h2 id=&#34;什麼是-clean-architecture&#34;&gt;什麼是 Clean Architecture
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Clean Architecture&lt;/a&gt;是軟體界大神&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Robert_C._Martin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Robert C. Martin&lt;/a&gt;提出，他所寫的著名作品有&lt;a class=&#34;link&#34; href=&#34;https://www.books.com.tw/products/0010579897&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Clean Code&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;http://books.com.tw/products/0010598217&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Clean Coder&lt;/a&gt;這些好書。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;工程師︰我已經拜讀了《Clean Code》，還有必要讀《Clean Architecture》嗎？ 架構師︰喔，你會做磚頭，那你會蓋房子嗎？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Clean Architecturer 將更面想整體的 Code 而非 Code 的單一部分。&lt;/p&gt;
+&lt;p&gt;而我使用的 Clean Architecture 結構是學習&lt;a class=&#34;link&#34; href=&#34;https://github.com/bxcodec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bxcodec&lt;/a&gt;的&lt;a class=&#34;link&#34; href=&#34;https://github.com/bxcodec/go-clean-arch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;go-clean-arch&lt;/a&gt;，如圖，此結構已經經過許多人驗證，是很 nice 的結構 XD。&lt;/p&gt;
+&lt;h2 id=&#34;clean-architecturer-的結構&#34;&gt;Clean Architecturer 的結構
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/c3we5K6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/c3we5K6.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;From: bxcodec/go-clean-arch&lt;/p&gt;
+&lt;p&gt;如果看了有點矇沒關係，我們可以用傳統的 MVC 來理解他，&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/8Qj2ZR9.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/8Qj2ZR9.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;model-層變為-repository-層&#34;&gt;Model 層變為 Repository 層
+&lt;/h3&gt;&lt;p&gt;以往單體式 Server 還不太需要與那麼多微服務溝通，所以 Model
+層可以單純連接 DB 就好。&lt;/p&gt;
+&lt;p&gt;但現在其實還有很多微服務要溝通，所以我們就統一稱作&lt;code&gt;Repository&lt;/code&gt;層吧！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;凡從外部進來的事物，都可以放在Repository層&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我常看到 Server 專案的架構是傳統 MVC，但微服務溝通這層卻不知道往哪裡擺，有些直接放在 Controller，有些又特別拉出一層，導致每個專案架構差異慎大。現在不用管了統一放在&lt;code&gt;Repository&lt;/code&gt;層！&lt;/p&gt;
+&lt;h3 id=&#34;controllerdelivery-層多了-usecase-層&#34;&gt;Controller/Delivery 層多了 Usecase 層
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;業務邏輯放置 Usecase 層。而 Controller/Delivery 只負責交代如何把這些 Usecase 帶給 View 層。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;如果沒有 Usecase 層，常常會導致 Controller 層的邏輯多到滿出來，我常碰到的問題是 Controller 其實也是有許多邏輯適合分享，但是傳統 MVC 卻沒有方式去傳遞他，現在有 Usecase 層，就會使 Controller 層就清爽許多。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在沒有任何業務邏輯下 Controller 層更加專心負責交付，因此稱之為 Delivery 層會更加合適。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;view-層變得多樣且彈性&#34;&gt;View 層變得多樣且彈性
+&lt;/h3&gt;&lt;p&gt;由於 Delivery 層負責交付 Usecase 給 View 層，所以&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;要更換任何 View 層只需要重寫 Delivery 層，業務邏輯的 Usecase 是不需要改的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這實在是非常棒！某次要從 Restful API 更換成 Websocket 介面時，我直接&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/F1iY76L.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/F1iY76L.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;再回頭看看某些專案，只有 Controller 層導致業務邏輯已經完全黏在 View 層，我只想大喊：「你為什麼不早說 QQ」。&lt;/p&gt;
+&lt;p&gt;順帶一提，MVC 的 View 其實最初是真的要有&lt;code&gt;看得到的網頁頁面&lt;/code&gt;的情境，因為以前的 Server
+都是直接吐網站的，不過現在 Server 的設計已經跟過往大不相同，所以我喜歡把 View 稱為&lt;code&gt;要呈現給Client端的方法&lt;/code&gt;，所以 Restful API, Websocket, gRPC 我都認為算是一種 View。&lt;/p&gt;
+&lt;h3 id=&#34;給每層建立介面的-domain-層&#34;&gt;給每層建立介面的 Domain 層
+&lt;/h3&gt;&lt;p&gt;除了 Delivery 層可以替換，Repository 層也是可以替換的，比如說 RDBMS 要從 MySQL 換成 PostgreSQL。&lt;/p&gt;
+&lt;p&gt;但要達成這個目標我們必須先訂好一個介面，比如說儲存 digimons table 可以先訂好以下介面:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;UUID&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;Status&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DigimonRepository&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Store&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ctx&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;context&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Context&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Digimon&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;error&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;更換 DB 引擎並不會造成 Usecase 層的 Call 的時候爆炸，因為介面沒變。&lt;/p&gt;
+&lt;p&gt;我們只需關心實作不同 DB 的儲存方式即可，所以這樣的特性造成:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每層都高獨立性的架構&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;為什麼更換-db-引擎只要介面不變就不會爆炸&#34;&gt;為什麼更換 DB 引擎，只要介面不變就不會爆炸？
+&lt;/h2&gt;&lt;p&gt;如果你是從 Node.js 轉到 Golang，你可能會對這個概念感到陌生(就像我
+XD)，以下舉一個 Node.js 大家常會遇到的困難，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;callAPI&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;caller&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;caller&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://api&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這時候會有一個問題：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;傳進來的 caller 真的有 get 這個 method 嗎？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;為了驗證我們會直接跑起來，&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;callAPI&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;ACaller&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 因為沒有get這個method
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 會顯示`Uncaught TypeError: caller.get is not a function`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;callAPI&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;BCaller&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 因為有get這個method，所以運作正常
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;但我們真的只能&lt;code&gt;跑起來&lt;/code&gt;才能驗證&lt;code&gt;有沒有這個method&lt;/code&gt;嗎？&lt;/p&gt;
+&lt;p&gt;答案是不用的，那就是透過程式的靜態分析，在程式還沒跑起來前分析 type(型別)或者是 interface(介面)適合符合預期，所以剛剛的 callAPI 可以這樣加入 interface 給參數&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// interfaceA會檢查此參數是否有get method
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;callAPI&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;caller&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;interfaceA&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;caller&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://api&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 如果a有get method就不會噴錯，而沒有就會噴錯
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;callAPI&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;回到原本不會爆炸的問題，我們可以替 DB 引擎&lt;code&gt;包上一層interface&lt;/code&gt;，再用 JavaScript 來舉例:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 此code不能運行，為舉例的pseudocode
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;interfaceA&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;insertRow&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;postgresDB&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// 這裡才是真的DB引擎的insert，我們為他包裝了一層interface，使呼叫方不會爆炸
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;postgres&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mysqlDB&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// DB引擎換了，但是外層interface與postgresDB相同
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;mysqlDB&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;insert&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;value&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 兩者都可以運行，因為都符合interfaceA的定義
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;insertRow&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;postgresDB&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;insertRow&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;mysqlDB&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;所以，Golang 因為有 interface 來跟使用的的程式說該要有哪些 method，更換 DB 引擎就不會爆炸了。&lt;/p&gt;
+&lt;h2 id=&#34;clean-architecturer&#34;&gt;Clean Architecturer
+&lt;/h2&gt;&lt;p&gt;的高可測試性&lt;/p&gt;
+&lt;p&gt;Clean Architecturer 提倡&lt;code&gt;DI - 依賴注入 (Dependency injection)&lt;/code&gt;，網路有很多很仔細的介紹，但我認為可以用以下例子很簡單說明他的&lt;code&gt;精神&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;❌&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;connectDB&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;storeString&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;store&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;✅&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;storeString&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;store&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;希望程式的實作依賴可以由外部注入，而不是被固定在底層&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更白話點&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;處理的人從參數帶進來啦，不然你寫死在 function 裡我怎麼換人&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有了這個概念後，如果想測試 DigimonRepository 層，你不需要真的連上 DB，而是使用運行在程式上的&lt;a class=&#34;link&#34; href=&#34;https://github.com/DATA-DOG/go-sqlmock&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mock DB&lt;/a&gt;，並且透過 DI 替換 DB 實體:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;storeString&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;store&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 用真的DB
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;connectDB&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;storeString&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// 用MockDB
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;connectMockDB&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;storeString&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考&#34;&gt;參考
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/bxcodec/go-clean-arch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bxcodec/go-clean-arch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/hackernoon/golang-clean-archithecture-efd6d7c43047&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Trying Clean Architecture on Golang&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

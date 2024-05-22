@@ -32,21 +32,3 @@ enable_site_search = true
   [params.comments]
     enabled = true
     provider = "disqus"
-
-# [menus]
-#   [[menus.main]]
-#     name = 'Golang 設計模式'
-#     url = '/posts/design-patterns-1-introduction'
-#     weight = 10
-#   [[menus.main]]
-#     name = 'Golang 系統設計'
-#     url = '/posts/system-design-1-introduction'
-#     weight = 11
-#   [[menus.main]]
-#     name = '文章分類'
-#     url = "/tags"
-#     weight = 20
-#   [[menus.main]]
-#     name = '關於我'
-#     pageRef = '/about-me'
-#     weight = 30

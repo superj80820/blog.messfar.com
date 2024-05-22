@@ -77,91 +77,91 @@
     <loc>http://localhost:1313/tags/ithome-2021/</loc>
     <lastmod>2021-09-30T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-30-strategy-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-strategy-pattern/</loc>
     <lastmod>2021-09-30T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-29-iterator-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-iterator-pattern/</loc>
     <lastmod>2021-09-29T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-28-command-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-command-pattern/</loc>
     <lastmod>2021-09-28T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-27-chain-of-responsibility/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-chain-of-responsibility/</loc>
     <lastmod>2021-09-27T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-26-proxy-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-proxy-pattern/</loc>
     <lastmod>2021-09-26T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-25-flyweight-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-flyweight-pattern/</loc>
     <lastmod>2021-09-25T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-24-composite-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-composite-pattern/</loc>
     <lastmod>2021-09-24T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-23-facade-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-facade-pattern/</loc>
     <lastmod>2021-09-23T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-22-decorator-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-decorator-pattern/</loc>
     <lastmod>2021-09-22T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-21-bridge-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-bridge-pattern/</loc>
     <lastmod>2021-09-21T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-20-adapter-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-adapter-pattern/</loc>
     <lastmod>2021-09-20T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-19-prototype-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-prototype-pattern/</loc>
     <lastmod>2021-09-19T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-18-singleton-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-singleton-pattern/</loc>
     <lastmod>2021-09-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-17-builder-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-builder-pattern/</loc>
     <lastmod>2021-09-17T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-abstract-factory-pattern/</loc>
     <lastmod>2021-09-16T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-factory-method-pattern/</loc>
     <lastmod>2021-09-15T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-14-simple-factory-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-simple-factory-pattern/</loc>
     <lastmod>2021-09-14T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-13-uml-class-diagrams/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-uml-class-diagrams/</loc>
     <lastmod>2021-09-13T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-12-concurrency-patterns/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-concurrency-patterns/</loc>
     <lastmod>2021-09-12T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-thread-specific-storage-pattern/</loc>
     <lastmod>2021-09-11T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-two-phase-termination-pattern/</loc>
     <lastmod>2021-09-10T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-9-worker-pool-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-worker-pool-pattern/</loc>
     <lastmod>2021-09-09T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-8-producer-consumer-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-producer-consumer-pattern/</loc>
     <lastmod>2021-09-08T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-7-fan-out-fan-in-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-fan-out-fan-in-pattern/</loc>
     <lastmod>2021-09-07T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-6-feature-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-feature-pattern/</loc>
     <lastmod>2021-09-06T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-5-thread-per-message-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-thread-per-message-pattern/</loc>
     <lastmod>2021-09-05T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-guarded-suspension-pattern/</loc>
     <lastmod>2021-09-04T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-3-read-write-lock-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-read-write-lock-pattern/</loc>
     <lastmod>2021-09-03T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern/</loc>
+    <loc>http://localhost:1313/post/design-pattern/go-design-pattern-single-threaded-execution-pattern/</loc>
     <lastmod>2021-09-02T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/page/design-pattern/</loc>
@@ -170,75 +170,113 @@
     <loc>http://localhost:1313/page/note/</loc>
     <lastmod>2021-09-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/k8s/go-clean-architecture/</loc>
-    <lastmod>2020-09-27T00:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/tags/istio/</loc>
+    <lastmod>2020-10-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ithome-2020/</loc>
-    <lastmod>2020-09-27T00:00:00+08:00</lastmod>
+    <lastmod>2020-10-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/k8s/</loc>
+    <lastmod>2020-10-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-prometheus-jaeger/</loc>
+    <lastmod>2020-10-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-jeager/</loc>
+    <lastmod>2020-10-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-grafana/</loc>
+    <lastmod>2020-10-12T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-kiali/</loc>
+    <lastmod>2020-10-11T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-destinationrule-part2/</loc>
+    <lastmod>2020-10-10T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-destinationrule-part1/</loc>
+    <lastmod>2020-10-09T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-gateway-virtualservice-part2/</loc>
+    <lastmod>2020-10-08T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-gateway-virtualservice-part1/</loc>
+    <lastmod>2020-10-07T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-helm/</loc>
+    <lastmod>2020-10-04T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-ingress/</loc>
+    <lastmod>2020-10-03T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-pod-service-deployment/</loc>
+    <lastmod>2020-10-02T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-kompose/</loc>
+    <lastmod>2020-10-01T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-introduction/</loc>
+    <lastmod>2020-09-30T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc-web-frontend-backend/</loc>
+    <lastmod>2020-09-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc/</loc>
+    <lastmod>2020-09-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-restful-to-grpc/</loc>
     <lastmod>2020-09-27T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc-web-part2/</loc>
+    <lastmod>2020-09-26T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc-web-part1/</loc>
+    <lastmod>2020-09-25T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc-call-service-to-function-call-part2/</loc>
+    <lastmod>2020-09-24T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-grpc-call-service-to-function-call-part1/</loc>
+    <lastmod>2020-09-23T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part3/</loc>
+    <lastmod>2020-09-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part2/</loc>
+    <lastmod>2020-09-21T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-clean-architecture-part1/</loc>
+    <lastmod>2020-09-20T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tool/</loc>
+    <lastmod>2020-09-19T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-docs/</loc>
+    <lastmod>2020-09-19T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-postgresql/</loc>
+    <lastmod>2020-09-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-microservice-docker/</loc>
+    <lastmod>2020-09-17T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-microservice-part2/</loc>
+    <lastmod>2020-09-16T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-microservice-part1/</loc>
+    <lastmod>2020-09-15T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-part2/</loc>
+    <lastmod>2020-09-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/k8s-note/k8s-note-istio-part1/</loc>
+    <lastmod>2020-09-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/page/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/docker-%E5%9C%A8%E6%89%8B%E6%9C%8D%E5%8B%99%E5%B8%B6%E8%91%97%E8%B5%B0---docker-%E7%AF%87-a6c075379e7e40a4a8a2604bd8b3f1d6/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/grpc-web%E8%AE%93%E4%BD%A0%E7%9A%84%E5%89%8D%E7%AB%AF%E4%B9%9F%E5%90%83%E5%88%B0-grpc-%E7%9A%84%E6%83%A1%E9%AD%94%E6%9E%9C%E5%AF%A6---%E5%AF%A6%E4%BD%9C%E7%AF%87-b52311014a074f999915827bf264119d/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/grpc-web%E8%AE%93%E4%BD%A0%E7%9A%84%E5%89%8D%E7%AB%AF%E4%B9%9F%E5%90%83%E5%88%B0grpc%E7%9A%84%E6%83%A1%E9%AD%94%E6%9E%9C%E5%AF%A6---%E6%A6%82%E5%BF%B5%E7%AF%87-0537572b1e7b4e8683bd31c0ef96aab9/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/istio-gatewayvirtualservice%E5%85%83%E4%BB%B6---%E5%AF%A6%E4%BD%9C%E7%AF%87-bd80e569d2c04c64874f23a42547d023/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/istio-gatewayvirtualservice%E5%85%83%E4%BB%B6---%E6%A6%82%E5%BF%B5%E7%AF%87-bd236ee0492c47509291d9757852e880/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/istio-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%8E%9F%E4%BE%86%E6%98%AF%E5%AE%B9%E5%99%A8%E9%96%93%E9%80%9A%E8%A8%8A%E7%9A%84%E5%A6%BB%E7%AE%A1%E5%9A%B4%E5%97%8E---%E5%AF%A6%E4%BD%9C%E7%AF%87-154741ca22da432ab5901946df766462/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/istio-%E6%98%AF%E4%BB%80%E9%BA%BC%E5%8E%9F%E4%BE%86%E6%98%AF%E5%AE%B9%E5%99%A8%E9%96%93%E9%80%9A%E8%A8%8A%E7%9A%84%E5%A6%BB%E7%AE%A1%E5%9A%B4%E5%97%8E---%E6%A6%82%E5%BF%B5%E7%AF%87-920ee867b18b44e8ac6e86d6b8dd6f33/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/kompose%E5%BF%AB%E9%80%9F%E5%AD%B8%E7%BF%92-kubernetes-%E4%B8%8D%E6%98%AF%E5%A4%A2-4a6fe23124654a8cbde893b8ecb4b8b6/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/kubernetes%E7%AE%A1%E7%90%86%E4%B8%80%E5%88%87%E5%BE%AE%E6%9C%8D%E5%8B%99%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%B9-698db94a64a243ed83b2d018ab5a24a9/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BA%86%E8%A7%A3-k8s-%E4%B8%AD%E7%9A%84-podservicedeployment-1f110478496c4e179460e60bc621a047/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BA%86%E8%A7%A3-k8s-%E4%B8%AD%E7%9A%84%E5%A4%A7%E9%96%80%E7%A5%9Eingress-68ee3c5ef255482aba0dfd290e4f7e88/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BB%80%E9%BA%BC%E4%BD%A0%E7%9A%84%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%94%B1%E6%96%87%E4%BB%B6%E7%94%A2%E7%94%9F%E9%80%99%E6%A8%A3%E4%B8%8D%E5%B0%B1%E4%B8%8D%E7%94%A8%E8%A3%9C%E6%96%87%E4%BB%B6%E4%BA%86%E5%97%8E---docs-tool-%E7%AF%87-fa7ff7cf353d4c7aa600874423c9ab90/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BB%8A%E6%99%9A%E6%88%91%E6%83%B3%E4%BE%86%E9%BB%9E-golang-server-%E5%8A%A0-postgresql---docker-compos-f887430364af4816b02fa12608526316/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BB%A5-grpc-%E5%AF%A6%E4%BD%9C%E5%85%A9%E5%80%8B%E5%BE%AE%E6%9C%8D%E5%8B%99%E7%9A%84%E6%BA%9D%E9%80%9A-25fda3d225ed406992178770c4660311/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BB%A5-grpc-web-%E5%AF%A6%E4%BD%9C%E5%89%8D%E7%AB%AF%E8%88%87%E5%BE%8C%E7%AB%AF%E7%9A%84%E6%BA%9D%E9%80%9A-19d06781c2744372963ad98f9c556507/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BD%A0%E7%9A%84-backend-%E5%8F%AF%E4%BB%A5%E6%9B%B4%E6%9C%89%E5%BD%88%E6%80%A7%E4%B8%80%E9%BB%9E---clean-architecture-%E6%A6%82%E5%BF%B5%E7%AF%87-efbeffa8389345aeb0adc1a974975657/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BD%BF%E7%94%A8-istio-%E7%9A%84-grafana-%E5%8F%AF%E8%A6%96%E5%8C%96%E5%BE%8C%E7%AB%AF%E7%9A%84%E6%B5%81%E9%87%8F-699ef616ac874b65afa21a1701317ed5/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BD%BF%E7%94%A8-istio-%E7%9A%84-jaeger-%E8%BF%BD%E8%B9%A4%E5%9C%A8%E5%90%84%E5%80%8B-service-%E7%A9%BF%E6%A2%AD%E7%9A%84%E8%AB%8B%E6%B1%82-f6e0d128600a4a5dabe49a9e62ffb83d/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BD%BF%E7%94%A8-istio-%E7%9A%84-kiali-%E5%8F%AF%E8%A6%96%E5%8C%96%E5%BE%8C%E7%AB%AF%E7%9A%84-service-mesh-efff41c66bed4b83adced4fb24499afa/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E4%BD%BF%E7%94%A8-istio-%E7%9A%84-prometheusjaeger-%E7%9B%A3%E6%8E%A7%E6%B5%81%E9%87%8F%E8%AB%8B%E6%B1%82-d7923f28bcfc44e0a066aefc7438ebb2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E5%88%A9%E7%94%A8-helm-%E6%8A%8A-k8s-%E5%85%83%E4%BB%B6%E9%83%BD%E5%8C%85%E8%A3%9D%E8%B5%B7%E4%BE%86%E5%90%A7-dcf67cd68fc1408ab76d3a6adfce380f/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E5%9C%A8%E9%96%8B%E5%A7%8B%E6%95%B8%E7%A2%BC%E5%BE%AE%E6%9C%8D%E5%8B%99%E4%B9%8B%E6%97%85%E5%89%8D-a769166ec81945c888c21b673734ef8e/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E5%A5%94%E6%94%BE%E7%9A%84-golang%E5%8D%BB%E9%9A%B1%E8%97%8F%E8%91%97%E6%9C%89%E7%B4%80%E5%BE%8B%E7%9A%84%E6%9E%B6%E6%A7%8B---clean-architecture-%E5%AF%A6%E4%BD%9C%E7%AF%87-d3354aeb1ea84e66bd3f9254f2930617/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E5%BE%AE%E6%9C%8D%E5%8B%99%E7%9C%9F%E7%9A%84%E6%9C%89%E9%82%A3%E9%BA%BC%E5%A5%BD%E4%BD%A0%E7%9A%84-backend-%E6%9C%89%E9%9C%80%E8%A6%81%E9%80%B2%E5%8C%96%E6%88%90%E4%BB%96%E5%97%8E-47215b6b91994f289bf281114562ea48/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E7%94%A8-istio-destinationrule%E5%85%83%E4%BB%B6%E4%BE%86%E6%B5%81%E9%87%8F%E7%AE%A1%E7%90%86---%E5%AF%A6%E4%BD%9C%E7%AF%87-89322e6aa4c445fba878d6885d003579/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E7%94%A8-istio-destinationrule%E5%85%83%E4%BB%B6%E4%BE%86%E6%B5%81%E9%87%8F%E7%AE%A1%E7%90%86---%E6%A6%82%E5%BF%B5%E7%AF%87-9ce5a1af6b9d485e8530bb39ec42d188/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E7%A5%9E%E5%A5%87%E7%9A%84-grpc%E8%AE%93%E4%BD%A0%E6%8A%8A-call-service-%E7%95%B6%E6%88%90%E4%B8%80%E5%80%8B-function-call---%E5%AF%A6%E4%BD%9C%E7%AF%87-45f1e14c56db481d82479ea2d7970236/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E7%A5%9E%E5%A5%87%E7%9A%84-grpc%E8%AE%93%E4%BD%A0%E6%8A%8A-call-service-%E7%95%B6%E6%88%90%E4%B8%80%E5%80%8B-function-call--%E6%A6%82%E5%BF%B5%E7%AF%87-9264db54cce54b118cf15cd76743d00d/</loc>
-  </url><url>
-    <loc>http://localhost:1313/post/k8s/%E8%AE%93%E4%BD%A0%E7%9A%84-backend-%E8%90%AC%E7%89%A9%E7%9A%86%E8%99%9B%E8%90%AC%E4%BA%8B%E7%9A%86%E5%8F%AF%E6%B8%AC---clean-architecture-%E6%B8%AC%E8%A9%A6%E7%AF%87-ad17b69f653b4f31a6dc2ffb120fc5f2/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

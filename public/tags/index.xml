@@ -63,9 +63,17 @@
         <description></description>
         </item>
         <item>
+        <title>Istio</title>
+        <link>http://localhost:1313/tags/istio/</link>
+        <pubDate>Wed, 14 Oct 2020 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/tags/istio/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Ithome-2020</title>
         <link>http://localhost:1313/tags/ithome-2020/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0800</pubDate>
+        <pubDate>Wed, 14 Oct 2020 00:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/ithome-2020/</guid>
         <description></description>
@@ -73,7 +81,7 @@
         <item>
         <title>K8s</title>
         <link>http://localhost:1313/tags/k8s/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0800</pubDate>
+        <pubDate>Wed, 14 Oct 2020 00:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/tags/k8s/</guid>
         <description></description>
