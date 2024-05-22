@@ -4,10 +4,4 @@ date = 2024-01-15T00:00:00+08:00
 tags = ['testing']
 +++
 
-- [測試框架或套件的選擇](Test%20%E9%9A%A8%E7%AD%86%20ae63acd045944c3a8c066c250be40b33/%E6%B8%AC%E8%A9%A6%E6%A1%86%E6%9E%B6%E6%88%96%E5%A5%97%E4%BB%B6%E7%9A%84%E9%81%B8%E6%93%87%2062a527aee9e04c9e814583a902bfd953.md)
-
----
-
-- 子頁面
-    
-    [測試框架或套件的選擇](Test%20%E9%9A%A8%E7%AD%86%20ae63acd045944c3a8c066c250be40b33/%E6%B8%AC%E8%A9%A6%E6%A1%86%E6%9E%B6%E6%88%96%E5%A5%97%E4%BB%B6%E7%9A%84%E9%81%B8%E6%93%87%2062a527aee9e04c9e814583a902bfd953.md)
+- [測試框架或套件的選擇](https://superj80820.github.io/blog.messfar.com/post/note/testing-note-choic-framework)

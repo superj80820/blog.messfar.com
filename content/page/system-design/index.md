@@ -21,9 +21,9 @@ image: 'cover.png'
 
 ### 教學
 
-- [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://www.notion.so/Backend-Clean-Architecture-efbeffa8389345aeb0adc1a974975657?pvs=21)
-- [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://www.notion.so/Golang-Clean-Architecture-d3354aeb1ea84e66bd3f9254f2930617?pvs=21)
-- [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://www.notion.so/Backend-Clean-Architecture-ad17b69f653b4f31a6dc2ffb120fc5f2?pvs=21)
+- [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part1)
+- [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part2)
+- [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part3)
 
 ## 撮合系統
 
