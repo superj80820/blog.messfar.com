@@ -21,9 +21,9 @@ image: 'cover.png'
 
 ### 教學
 
-- [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part1)
-- [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part2)
-- [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://superj80820.github.io/blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part3)
+- [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part1)
+- [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part2)
+- [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part3)
 
 ## 撮合系統
 
@@ -50,10 +50,10 @@ image: 'cover.png'
 
 ### 教學
 
-1. [如何設計一個撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-2-architecture)
-2. [Sequence 定序模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-3-sequence)
-3. [Asset 資產模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-4-asset)
-4. [Order 訂單模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-5-order)
-5. [Matching 撮合模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-6-matching)
-6. [Clearing 清算模組](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-7-clearing)
-7. [整合撮合系統](https://superj80820.github.io/blog.messfar.com/post/system-design/system-design-8-integration)
+1. [如何設計一個撮合系統](https://blog.messfar.com/post/system-design/system-design-2-architecture)
+2. [Sequence 定序模組](https://blog.messfar.com/post/system-design/system-design-3-sequence)
+3. [Asset 資產模組](https://blog.messfar.com/post/system-design/system-design-4-asset)
+4. [Order 訂單模組](https://blog.messfar.com/post/system-design/system-design-5-order)
+5. [Matching 撮合模組](https://blog.messfar.com/post/system-design/system-design-6-matching)
+6. [Clearing 清算模組](https://blog.messfar.com/post/system-design/system-design-7-clearing)
+7. [整合撮合系統](https://blog.messfar.com/post/system-design/system-design-8-integration)

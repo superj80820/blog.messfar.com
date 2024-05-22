@@ -5,4 +5,4 @@ tags = ['rust']
 +++
 
 
-- [rust trait(特徵)跟java interface(介面)的差異](https://superj80820.github.io/blog.messfar.com/post/note/rust-note-rust-trait-vs-java-interface)
+- [rust trait(特徵)跟java interface(介面)的差異](https://blog.messfar.com/post/note/rust-note-rust-trait-vs-java-interface)

@@ -6,14 +6,14 @@ tags = ['go']
 
 ## 錯誤處理
 
-- [Golang 錯誤處理](https://superj80820.github.io/blog.messfar.com/post/note/golang-note-error-handle)
+- [Golang 錯誤處理](https://blog.messfar.com/post/note/golang-note-error-handle)
 - Golang 最佳錯誤處理實踐: [https://medium.com/@dche423/golang-error-handling-best-practice-cn-42982bd72672](https://medium.com/@dche423/golang-error-handling-best-practice-cn-42982bd72672)
 
 ## 語法基礎
 
 - Slice
-    - [Golang for 迴圈怎麼會都列出最後一個值](https://superj80820.github.io/blog.messfar.com/post/note/golang-note-slice-for-loop-notice)
-    - [Golang Slice 有無設定 cap 的差異](https://superj80820.github.io/blog.messfar.com/post/note/golang-note-slice-set-cap)
+    - [Golang for 迴圈怎麼會都列出最後一個值](https://blog.messfar.com/post/note/golang-note-slice-for-loop-notice)
+    - [Golang Slice 有無設定 cap 的差異](https://blog.messfar.com/post/note/golang-note-slice-set-cap)
 - Map
     - [https://stackoverflow.com/questions/49176090/map-as-a-method-receiver](https://stackoverflow.com/questions/49176090/map-as-a-method-receiver)
 
@@ -27,7 +27,7 @@ tags = ['go']
 - 解決 deadlock 的方式
     - 順序鎖
     - 分段鎖
-- [Graceful Shutdown](https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-concurrency-patterns)
+- [Graceful Shutdown](https://blog.messfar.com/post/design-pattern/go-design-pattern-concurrency-patterns)
 - Golang Atomic: [https://gfw.go101.org/article/concurrent-atomic-operation.html](https://gfw.go101.org/article/concurrent-atomic-operation.html)
 - Golang select中的break、continue和return: [https://tomjamescn.github.io/post/2019-07-11-golang-basic-1-break-continue-return-in-select/](https://tomjamescn.github.io/post/2019-07-11-golang-basic-1-break-continue-return-in-select/)
 
@@ -42,7 +42,7 @@ tags = ['go']
 
 ## 注意事項
 
-- [Golang for 迴圈怎麼會都列出最後一個值](https://superj80820.github.io/blog.messfar.com/post/note/golang-note-slice-for-loop-notice)
+- [Golang for 迴圈怎麼會都列出最後一個值](https://blog.messfar.com/post/note/golang-note-slice-for-loop-notice)
 
 ## 套件與資源
 

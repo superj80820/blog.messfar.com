@@ -6,9 +6,9 @@ tags = ['algo']
 
 ### Leetcode
 
-- [0283-move zeros](https://superj80820.github.io/blog.messfar.com/post/note/algo-note-0283-move-zeros)
+- [0283-move zeros](https://blog.messfar.com/post/note/algo-note-0283-move-zeros)
 
 ### Algoexpert
 
-- [algoexpert-class-photos](https://superj80820.github.io/blog.messfar.com/post/note/algo-note-algoexpert-class-photo)
-- [algoexpert-minimum-waiting-time](https://superj80820.github.io/blog.messfar.com/post/note/algo-note-algoexpert-minimum-waiting-time)
+- [algoexpert-class-photos](https://blog.messfar.com/post/note/algo-note-algoexpert-class-photo)
+- [algoexpert-minimum-waiting-time](https://blog.messfar.com/post/note/algo-note-algoexpert-minimum-waiting-time)
