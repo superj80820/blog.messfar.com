@@ -1,6 +1,6 @@
 +++
 title = 'Facade Pattern，由統一的入口介面來做事'
-date = 2021-09-22T00:00:00+08:00
+date = 2021-09-23T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

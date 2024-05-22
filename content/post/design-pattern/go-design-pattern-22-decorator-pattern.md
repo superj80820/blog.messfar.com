@@ -1,6 +1,6 @@
 +++
 title = 'Decorator Pattern，巧妙的在方法上增加新功能'
-date = 2021-09-21T00:00:00+08:00
+date = 2021-09-22T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

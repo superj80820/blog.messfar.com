@@ -1,6 +1,6 @@
 +++
 title = 'Abstract Factory Pattern，膜拜那個工廠之神吧！'
-date = 2021-09-15T00:00:00+08:00
+date = 2021-09-16T00:00:00+08:00
 tags = ['go', 'system-design', 'ithome-2021']
 +++
 

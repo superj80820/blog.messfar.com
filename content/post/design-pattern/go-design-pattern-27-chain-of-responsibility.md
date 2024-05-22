@@ -1,6 +1,6 @@
 +++
 title = 'Chain of Responsibility，將實作透過串串樂串起來'
-date = 2021-09-26T00:00:00+08:00
+date = 2021-09-27T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

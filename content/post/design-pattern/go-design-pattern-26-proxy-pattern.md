@@ -1,6 +1,6 @@
 +++
 title = 'Proxy Pattern，讓代理人操作實際的物件'
-date = 2021-09-25T00:00:00+08:00
+date = 2021-09-26T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

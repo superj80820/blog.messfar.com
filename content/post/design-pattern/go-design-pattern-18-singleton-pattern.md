@@ -1,6 +1,6 @@
 +++
 title = 'Singleton Pattern，致獨一無二的你'
-date = 2021-09-17T00:00:00+08:00
+date = 2021-09-18T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

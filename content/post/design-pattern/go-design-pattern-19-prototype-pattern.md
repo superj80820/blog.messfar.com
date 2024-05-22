@@ -1,6 +1,6 @@
 +++
 title = 'Prototype Pattern，創建物件不再從頭開始浪費時間'
-date = 2021-09-18T00:00:00+08:00
+date = 2021-09-19T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

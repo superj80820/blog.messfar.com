@@ -1,6 +1,6 @@
 +++
 title = 'Iterator Pattern，迭代各種不同的物件'
-date = 2021-09-28T00:00:00+08:00
+date = 2021-09-29T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

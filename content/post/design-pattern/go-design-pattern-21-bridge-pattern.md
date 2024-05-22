@@ -1,6 +1,6 @@
 +++
 title = 'Bridge Pattern，橋接人間與魔界的次元門'
-date = 2021-09-20T00:00:00+08:00
+date = 2021-09-21T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 

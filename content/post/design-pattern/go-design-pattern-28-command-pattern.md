@@ -1,6 +1,6 @@
 +++
 title = 'Command Pattern，將動作已指令一個一個完成'
-date = 2021-09-27T00:00:00+08:00
+date = 2021-09-28T00:00:00+08:00
 tags = ['go', 'design-pattern', 'ithome-2021']
 +++
 
