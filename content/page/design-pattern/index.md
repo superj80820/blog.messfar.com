@@ -1,5 +1,5 @@
 ---
-title: 'Hey! Go Design Patterns'
+title: 'Design Pattern 系列'
 date: 2021-09-01T00:00:00+08:00
 tags:
     - 'go'

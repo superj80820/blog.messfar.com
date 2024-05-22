@@ -29,6 +29,9 @@ enable_site_search = true
     enabled = true
     local = true
     src = "avatar.jpg"
+  [params.comments]
+    enabled = true
+    provider = "disqus"
 
 # [menus]
 #   [[menus.main]]

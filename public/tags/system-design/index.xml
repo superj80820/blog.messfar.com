@@ -1175,10 +1175,10 @@ Date: March 31, 2024&lt;/p&gt;
         </item>
         <item>
         <title>Abstract Factory Pattern，膜拜那個工廠之神吧！</title>
-        <link>http://localhost:1313/post/design-pattern/go-abstract-factory-pattern/</link>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</link>
         <pubDate>Thu, 16 Sep 2021 00:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/post/design-pattern/go-abstract-factory-pattern/</guid>
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-16-abstract-factory-pattern/</guid>
         <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Simple Factory Pattern&lt;/li&gt;
@@ -1361,12 +1361,144 @@ Date: March 31, 2024&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>Hey! Go Design Patterns</title>
+        <title>Factory Method Pattern，把複雜的邏輯拆分至小工廠中</title>
+        <link>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</link>
+        <pubDate>Wed, 15 Sep 2021 00:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/post/design-pattern/go-design-pattern-15-factory-method-pattern/</guid>
+        <description>&lt;p&gt;工廠模式主要有三種不同的實作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple Factory Pattern&lt;/li&gt;
+&lt;li&gt;Factory Method Pattern&lt;/li&gt;
+&lt;li&gt;Abstract Factory Pattern&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這三種實作由簡單到複雜，今天會介紹 Simple Factory Pattern 延伸的 Factory Method Pattern&lt;/p&gt;
+&lt;h2 id=&#34;什麼是-factory-method-pattern&#34;&gt;什麼是 Factory Method Pattern？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;將複雜的生產邏輯再拆分至特定工廠，由使用者端決定要使用什麼工廠來生產產品&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以昨天的例子簡單得來說，就是「將 if else/swtich 的邏輯拆分至不同工廠」，即：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;CreatePS5&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;switch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PS5WithCD&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCDMachine&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PS5WithDigital&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;拆分至&lt;code&gt;PS5WithCDFactory{}&lt;/code&gt;、&lt;code&gt;PS5WithDigital{}&lt;/code&gt;，「單一產品由單一工廠生產」，這樣做有什麼優缺點呢？&lt;/p&gt;
+&lt;p&gt;優點:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;符合&lt;strong&gt;開閉原則&lt;/strong&gt;，在新增產品時不必修改 function 實作(對修改封閉)，但可以透過不同工廠來新增(對擴充開放)&lt;/li&gt;
+&lt;li&gt;修改都是擴充的，不是改 function 實作，所以把原本的邏輯改壞的可能性不高&lt;/li&gt;
+&lt;li&gt;如果創建邏輯過於複雜，Simple Factory Pattern 的邏輯會相當複雜，而 Factory Method Pattern 將邏輯拆成小工廠可以避免這個問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;缺點:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;為每新增一個產品都需要新增一個工廠，如果產品眾多，程式碼會有數不盡的工廠，讓系統變得很複雜&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;問題情境&#34;&gt;問題情境
+&lt;/h2&gt;&lt;p&gt;延續昨天的情境，要生產 PS5 主機&lt;strong&gt;光碟版&lt;/strong&gt;與&lt;strong&gt;數位版&lt;/strong&gt;給使用者，但使用者不需要知道「如何生產 CPU、顯示晶片與加裝光碟機」，使用者只需要獲得此產品就行。&lt;/p&gt;
+&lt;h2 id=&#34;解決方式&#34;&gt;解決方式
+&lt;/h2&gt;&lt;p&gt;程式碼如下：&lt;/p&gt;
+&lt;p&gt;(相關的 code 在&lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/go-design-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github - go-design-patterns&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachineFactory&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt;() &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachine&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCDFactory&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;f&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCDFactory&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt;() &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachine&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCDMachine&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigitalFactory&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;f&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigitalFactory&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt;() &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachine&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;ps5&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachine&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;PlayGame&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;PlayGame&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;loading cd...play!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;AddCDMachine&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;adding cd machine...done!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;adding cpu...done!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCD&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;adding gpu...done!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;PlayGame&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;loading digital file...play!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;AddCPU&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;adding cpu...done!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithDigital&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;AddGPU&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;adding gpu...done!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;gameMachineFactory&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GameMachineFactory&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;gameMachine&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gameMachineFactory&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;gameMachine&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;PlayGame&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;PS5WithCDFactory&lt;/span&gt;{})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;UML 圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ao9stPW.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://i.imgur.com/ao9stPW.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可以與昨天 UML 圖比較，關鍵差異在於「把工廠也建立了 inferface」，使用者就可以使用&lt;code&gt;GameMachineFactory&lt;/code&gt; interface 來去選擇哪間工廠，而選好了工廠後，工廠依照 interface 把&lt;code&gt;Create()&lt;/code&gt;提供給使用者操作，創建出遊戲機，之後就與 Simple
+Factory Pattern 是一樣使用者依照&lt;code&gt;GameMachine&lt;/code&gt;interface 來遊玩遊戲。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Design Pattern 系列</title>
         <link>http://localhost:1313/page/design-pattern/</link>
         <pubDate>Wed, 01 Sep 2021 00:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/page/design-pattern/</guid>
-        <description>&lt;img src="http://localhost:1313/exchange-arch.png" alt="Featured image of post Hey! Go Design Patterns" /&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/P87VC4O.png&#34;
+        <description>&lt;img src="http://localhost:1313/page/design-pattern/cover.png" alt="Featured image of post Design Pattern 系列" /&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/P87VC4O.png&#34;
 	
 	
 	
@@ -1412,84 +1544,83 @@ Patterns ，我選定&lt;a class=&#34;link&#34; href=&#34;https://www.tenlong.co
 &lt;h2 id=&#34;文章目錄&#34;&gt;文章目錄
 &lt;/h2&gt;&lt;p&gt;在此列出這次鐵人每天撰寫的目錄，也給自己一個目標讓自己不迷航 XD。由於對於高併發興趣挺大所以會先以 Concurrency Patterns 開始，再介紹經典 Design Patterns。&lt;/p&gt;
 &lt;p&gt;並且會把相關的 Code 放在此 &lt;a class=&#34;link&#34; href=&#34;https://github.com/superj80820/go-design-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github -
-go-design-patterns&lt;/a&gt;。&lt;/p&gt;
+    &gt;go-design-patterns&lt;/a&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;工具
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-13-uml-class-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UML Class diagrams，在抽象世界的具現化寶石&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;設計模式
 &lt;ul&gt;
 &lt;li&gt;Concurrency 併發模式: 如何讓程式高併發，並足夠安全，不產生 race
 condition、dead lock 等問題
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10264769&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-2：Single Threaded Execution
-Pattern，門就只有一個大家好好排隊啊～&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10265460&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-3：Read-Write-Lock Pattern，三人成虎，一人打虎！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10266278&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-4：Guarded Suspension Pattern，你不會死的，因為我會保護你&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10267174&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-5：Thread-Per-Message Pattern，預備…發射！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10267843&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-6：Feature Pattern，我把未來託付給你了！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10268715&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-7：Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10269446&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-8：Producer Consumer
-Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10270015&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-9：Worker Pool Pattern，就。很。Pool。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10270786&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-10：Two-phase Termination Pattern，我就跟你說不要亂拔電源！&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10271558&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-11：Thread-Specific Storage Pattern，高併發的多重宇宙空間&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/articles/10272236&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DAY
-12：Concurrency Patterns 融會貫通＋ Graceful
-Shutdown，正確關閉各個宇宙的次元門&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-2-single-threaded-execution-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Single Threaded Execution Pattern，門就只有一個大家好好排隊啊～&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-3-read-write-lock-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Read-Write-Lock Pattern，三人成虎，一人打虎！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-4-guarded-suspension-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Guarded Suspension Pattern，你不會死的，因為我會保護你&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-5-thread-per-message-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Thread-Per-Message Pattern，預備…發射！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-6-feature-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Feature Pattern，我把未來託付給你了！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-7-fan-out-fan-In-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fan-Out Fan-In Pattern，看吧世界！這就是多人解決的力量！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-8-producer-consumer-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Producer Consumer Pattern，點菜了，三份穿褲子的豬，一盤熱空氣，把牛變成鱒魚&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-9-worker-pool-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Worker Pool Pattern，就。很。Pool。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-10-two-phase-termination-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Two-phase Termination Pattern，我就跟你說不要亂拔電源！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-11-thread-specific-storage-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Thread-Specific Storage Pattern，高併發的多重宇宙空間&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-12-concurrency-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Concurrency Patterns 融會貫通＋ Graceful Shutdown，正確關閉各個宇宙的次元門&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Creational 建立模式: 如何有效的生產與管理物件
 &lt;ul&gt;
-&lt;li&gt;Abstract Factory&lt;/li&gt;
-&lt;li&gt;Builder&lt;/li&gt;
-&lt;li&gt;Factory Method&lt;/li&gt;
-&lt;li&gt;Prototype&lt;/li&gt;
-&lt;li&gt;Singleton&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-15-factory-method-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Factory Method Pattern，把複雜的邏輯拆分至小工廠中&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-16-abstract-factory-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Abstract Factory Pattern，膜拜那個工廠之神吧！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-17-builder-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Builder Pattern，一步一步的建造產品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-18-singleton-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Singleton Pattern，致獨一無二的你&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://superj80820.github.io/blog.messfar.com/post/design-pattern/go-design-pattern-19-prototype-pattern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Prototype Pattern，創建物件不再從頭開始浪費時間&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Structural 結構模式: 如何設計出低耦合的物件關係
 &lt;ul&gt;
-&lt;li&gt;Adapter&lt;/li&gt;
-&lt;li&gt;Bridge&lt;/li&gt;
-&lt;li&gt;Composite&lt;/li&gt;
-&lt;li&gt;Decorator&lt;/li&gt;
-&lt;li&gt;Facade&lt;/li&gt;
-&lt;li&gt;Flyweight&lt;/li&gt;
-&lt;li&gt;Proxy&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-20-adapter-pattern&#34; &gt;Adapter Pattern，統一不同產品的介面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-21-bridge-pattern&#34; &gt;Bridge Pattern，橋接人間與魔界的次元門&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-22-decorator-pattern&#34; &gt;Decorator Pattern，巧妙的在方法上增加新功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-24-composite-pattern&#34; &gt;Composite Pattern，管理有層次的物件們&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-23-facade-pattern&#34; &gt;Facade Pattern，由統一的入口介面來做事&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-25-flyweight-pattern&#34; &gt;Flyweight Pattern，節省空間的好幫手&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-26-proxy-pattern&#34; &gt;Proxy Pattern，讓代理人操作實際的物件&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Behavioral 行為模式:
-如何讓物件互動的更彈性、有效率，職責更清晰
+&lt;li&gt;Behavioral 行為模式: 如何讓物件互動的更彈性、有效率，職責更清晰
 &lt;ul&gt;
-&lt;li&gt;Chain of Responsibility&lt;/li&gt;
-&lt;li&gt;Command&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-27-chain-of-responsibility&#34; &gt;Chain of Responsibility，將實作透過串串樂串起來&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-28-command-pattern&#34; &gt;Command Pattern，將動作已指令一個一個完成&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Interpreter&lt;/li&gt;
-&lt;li&gt;Iterator&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-29-iterator-pattern&#34; &gt;Iterator Pattern，迭代各種不同的物件&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Mediator&lt;/li&gt;
 &lt;li&gt;Memento&lt;/li&gt;
 &lt;li&gt;Observer&lt;/li&gt;
 &lt;li&gt;State&lt;/li&gt;
-&lt;li&gt;Strategy&lt;/li&gt;
-&lt;li&gt;Template Methodbehavior.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;go-design-pattern-30-strategy-pattern&#34; &gt;Strategy Pattern，選定不同的策略來執行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Template Methodbehavior&lt;/li&gt;
 &lt;li&gt;Visitor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
