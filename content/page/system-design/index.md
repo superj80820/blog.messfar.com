@@ -25,9 +25,9 @@ image: 'cover.png'
 
 ### 教學
 
-* [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part1)
-* [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part2)
-* [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part3)
+1. [你的 Backend 可以更有彈性一點 - Clean Architecture 概念篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part1)
+2. [奔放的 Golang，卻隱藏著有紀律的架構！ - Clean Architecture 實作篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part2)
+3. [讓你的 Backend 萬物皆虛，萬事皆可測 - Clean Architecture 測試篇](https://blog.messfar.com/post/k8s-note/k8s-note-clean-architecture-part3)
 
 ## Matching System
 
