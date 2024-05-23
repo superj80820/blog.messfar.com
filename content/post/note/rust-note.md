@@ -1,5 +1,5 @@
 +++
-title = 'Rust 隨筆'
+title = '隨筆: Rust'
 date = 2024-01-09T00:00:00+08:00
 tags = ['rust']
 +++

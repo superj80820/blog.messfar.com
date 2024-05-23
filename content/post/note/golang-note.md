@@ -1,5 +1,5 @@
 +++
-title = 'Golang 隨筆'
+title = '隨筆: Golang'
 date = 2024-02-02T00:00:00+08:00
 tags = ['go']
 +++

@@ -1,5 +1,5 @@
 +++
-title = 'Golang Slice 有無設定 cap 的差異'
+title = '隨筆: Golang Slice 有無設定 cap 的差異'
 date = 2024-02-02T00:00:00+08:00
 tags = ['go']
 +++

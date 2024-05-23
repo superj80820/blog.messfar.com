@@ -1,5 +1,5 @@
 +++
-title = 'Golang for 迴圈怎麼會都列出最後一個值'
+title = '隨筆: Golang for 迴圈怎麼會都列出最後一個值'
 date = 2024-02-02T00:00:00+08:00
 tags = ['go']
 +++

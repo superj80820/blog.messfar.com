@@ -10,7 +10,7 @@ menu:
 ---
 
 * [學習地圖](https://blog.messfar.com/post/note/raodmap-note)
-* [Algo 隨筆](https://blog.messfar.com/post/note/algo-note)
-* [Golang 隨筆](https://blog.messfar.com/post/note/golang-note)
-* [Rust 隨筆](https://blog.messfar.com/post/note/rust-note)
-* [Testing 隨筆](https://blog.messfar.com/post/note/testing-note)
+* [Algo](https://blog.messfar.com/post/note/algo-note)
+* [Golang](https://blog.messfar.com/post/note/golang-note)
+* [Rust](https://blog.messfar.com/post/note/rust-note)
+* [Testing](https://blog.messfar.com/post/note/testing-note)

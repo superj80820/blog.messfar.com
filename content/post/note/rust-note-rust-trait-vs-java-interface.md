@@ -1,5 +1,5 @@
 +++
-title = 'rust trait(特徵)跟java interface(介面)的差異'
+title = '隨筆: rust trait(特徵)跟java interface(介面)的差異'
 date = 2024-01-09T00:00:00+08:00
 tags = ['rust', 'java']
 +++
