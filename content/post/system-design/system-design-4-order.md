@@ -6,6 +6,12 @@ tags = ['go', 'system-design']
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/order.jpg](https://raw.githubusercontent.com/superj80820/system-design/master/doc/order.jpg)
 
+source code:
+* [usecase](https://github.com/superj80820/system-design/tree/master/exchange/usecase/order)
+* [repository](https://github.com/superj80820/system-design/tree/master/exchange/repository/order)
+
+---
+
 活動訂單需由訂單模組管理，可以用hash table以`orderID: order`儲存所有活動訂單，在需要以用戶ID取得相關活動訂單時，可用兩層hash table以`userID: orderID: order`取得訂單。
 
 由於在撮合時也有機會透過API讀取memory的活動訂單，所以須用read-write-lock保護。

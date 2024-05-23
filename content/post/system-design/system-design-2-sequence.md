@@ -6,6 +6,12 @@ tags = ['go', 'system-design']
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/sequencer.jpg](https://raw.githubusercontent.com/superj80820/system-design/master/doc/sequencer.jpg)
 
+source code:
+* [usecase](https://github.com/superj80820/system-design/tree/master/exchange/usecase/sequencer)
+* [repository](https://github.com/superj80820/system-design/tree/master/exchange/repository/sequencer)
+
+---
+
 ```go
 type SequenceTradingUseCase interface {
 	ProduceCreateOrderTradingEvent(ctx context.Context, userID int, direction DirectionEnum, price, quantity decimal.Decimal) (*TradingEvent, error)

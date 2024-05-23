@@ -6,6 +6,10 @@ tags = ['go', 'system-design']
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/exchange-arch.png](https://raw.githubusercontent.com/superj80820/system-design/master/doc/exchange-arch.png)
 
+source code:
+* [usecase](https://github.com/superj80820/system-design/tree/master/exchange/usecase/trading)
+* [repository](https://github.com/superj80820/system-design/tree/master/exchange/repository/trading)
+
 交易系統分為兩大部分，一個是非同步的`TradingUseCase()`、一個是同步的`syncTradingUseCase()`，`TradingUseCase()`將無序的`TradingEvent`蒐集後，有序的逐筆送入`syncTradingUseCase()`，我們會希望各種IO在`TradingUseCase()`完成，撮合這些需高速計算的部分在純memory的`syncTradingUseCase()`完成並得到trading result，再交給`TradingUseCase()`進行persistent，最後達到eventual consistency。
 
 我們先介紹`tradingUseCase`，再介紹實作相對簡單的`syncTradingUseCase`。

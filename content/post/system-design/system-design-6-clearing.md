@@ -9,6 +9,11 @@ Date: March 31, 2024
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/clearing.jpg](https://raw.githubusercontent.com/superj80820/system-design/master/doc/clearing.jpg)
 
+source code:
+* [usecase](https://github.com/superj80820/system-design/tree/master/exchange/usecase/clearing)
+
+---
+
 撮合模組撮合後，雙方資產還沒有實際交換，訂單也還沒更新，必須再透過清算模組進行處理，故注入資產模組與訂單模組
 
 ```go

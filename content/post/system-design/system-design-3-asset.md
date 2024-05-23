@@ -6,6 +6,12 @@ tags = ['go', 'system-design']
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/asset.jpg](https://raw.githubusercontent.com/superj80820/system-design/master/doc/asset.jpg)
 
+source code:
+* [usecase](https://github.com/superj80820/system-design/tree/master/exchange/usecase/asset)
+* [repository](https://github.com/superj80820/system-design/tree/master/exchange/repository/asset)
+
+---
+
 用戶資產除了基本的UserID、AssetID、Available(可用資產)，還需Frozen(凍結資產)欄位，以實現用戶下單時把下單資金凍結。
 
 ```go
