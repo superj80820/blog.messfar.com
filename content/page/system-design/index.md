@@ -33,7 +33,11 @@ image: 'cover.png'
 
 ![https://raw.githubusercontent.com/superj80820/system-design/master/doc/exchange-arch.png](https://raw.githubusercontent.com/superj80820/system-design/master/doc/exchange-arch.png)
 
-後端[exchange](https://github.com/superj80820/system-design/tree/master/exchange)與開源前端[gitbitex-web](https://github.com/gitbitex/gitbitex-web)整合
+source code:
+* [backend](https://github.com/superj80820/system-design/tree/master/exchange)
+* [frontend-gitbitex-web(open source)](https://github.com/gitbitex/gitbitex-web)
+
+---
 
 * 預覽網頁(❗僅用最低效能運行預覽，不是 production 運作規格): [https://preview.exchange.messfar.com](https://preview.exchange.messfar.com/)
 * 可達到 100,000PRS。撮合引擎以記憶體計算
