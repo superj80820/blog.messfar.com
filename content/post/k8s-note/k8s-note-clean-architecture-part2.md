@@ -38,17 +38,17 @@ $ docker run --rm -v ${PWD}:/local swaggerapi/swagger-codegen-cli-v3 generate \
 
 swagger-generator 會自動產生以下的 code:
 
-![https://i.imgur.com/pnEyUT8.png](https://i.imgur.com/pnEyUT8.png)
+![](https://i.imgur.com/pnEyUT8.png)
 
 接下來我們將一步一步實作成以下的 code:
 
-![https://i.imgur.com/DcBLIhV.png](https://i.imgur.com/DcBLIhV.png)
+![](https://i.imgur.com/DcBLIhV.png)
 
 ## 來實作吧！
 
-![https://i.imgur.com/8Qj2ZR9.png](https://i.imgur.com/8Qj2ZR9.png)
+![](https://i.imgur.com/8Qj2ZR9.png)
 
-![https://i.imgur.com/xDYVMWG.png](https://i.imgur.com/xDYVMWG.png)
+![](https://i.imgur.com/xDYVMWG.png)
 
 請配合此兩張圖與並依照[Github 範例](https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY07)一步一步實作，
 
@@ -56,16 +56,15 @@ swagger-generator 會自動產生以下的 code:
 
 如[DAY06](https://github.com/superj80820/2020-ithelp-contest/blob/master/DAY06)所說，
 
-> 我們需要一個interface來告訴每個 call 的程式他們到底在 call 什麼
-> 
+> 我們需要一個`interface`來告訴每個 call 的程式他們到底在 call 什麼
 
 所以必須建立建立 diet(培育)與 digimon(數碼獸)兩個 interface 在 domain 層。
 
-![https://i.imgur.com/HOkkLhs.png](https://i.imgur.com/HOkkLhs.png)
+![](https://i.imgur.com/HOkkLhs.png)
 
 以`digimon.go`來說，
 
-```go
+```golang
 package domain
 
 import "context"
@@ -97,21 +96,20 @@ type DigimonUsecase interface {
 ```
 
 - `講解1 - struct`: 定義了數碼獸會有哪些的屬性，當程式裡面創建了數碼獸，就必定這些屬性都要擁有。
-- `講解2 - repository interface`: 定義了 repository 層的各種方法，我們必須要按照這個定義實作，不然就會爆炸，呼叫的程式只能呼叫這些定義好的方法，不然也會爆炸
-XD。
+- `講解2 - repository interface`: 定義了 repository 層的各種方法，我們必須要按照這個定義實作，不然就會爆炸，呼叫的程式只能呼叫這些定義好的方法，不然也會爆炸 XD。
 - `講解3 - usecase interface`: 與`講解-2`相同都是定義有哪些方法，不過他是定義 usecase 這個業務邏輯層。
 
 ### Repository 層 - 任何外部資料都我來管
 
 定義好了 domain 層，就可以依照 domain 來設計 repository 層，
 
-![https://i.imgur.com/UtfWMqy.png](https://i.imgur.com/UtfWMqy.png)
+![](https://i.imgur.com/UtfWMqy.png)
 
 可以看到雖然 diet 與 digimon 目前都是用 PostgreSQL 來實作，但是我們都將 repository 獨立拉出來，以便將不同的 DB 功能做區分。
 
 以下為核心部分:
 
-```go
+```golang
 // ... 其他程式碼
 
 // !!! 講解1 !!!
@@ -146,7 +144,7 @@ func (p *postgresqlDigimonRepository) GetByID(ctx context.Context, id string) (*
 
 ### Usecase 層 - 業務邏輯的管轄處
 
-![https://i.imgur.com/BVDeh0X.png](https://i.imgur.com/BVDeh0X.png)
+![](https://i.imgur.com/BVDeh0X.png)
 
 ```go
 // ... 其他程式碼
@@ -177,14 +175,13 @@ func (du *digimonUsecase) GetByID(ctx context.Context, id string) (*domain.Digim
 // ... 其他程式碼
 ```
 
-- `講解1 - 定義依賴注入(DI)所需的Repository層`: 注入了之後我們再對 Repository
-層做各種邏輯的操作，要注意的是，雖然目前只有注入所屬 PostgreSQL 的 repository，但如果 digimon 有很多不同的來源，比如說 MongoDB、Microservice 等等，我們可以注入更多 repository 來操作。
+- `講解1 - 定義依賴注入(DI)所需的Repository層`: 注入了之後我們再對 Repository 層做各種邏輯的操作，要注意的是，雖然目前只有注入所屬 PostgreSQL 的 repository，但如果 digimon 有很多不同的來源，比如說 MongoDB、Microservice 等等，我們可以注入更多 repository 來操作。
 - `講解2 - 設計確實注入的function`: 與 repository 層一樣，需要一個 function 來要求要注入哪些 repository。
 - `講解3 - 依照domain.DigimonRepository interface來實作`: 與 repository 層一樣，要以 interface 規範來實作，不過這裡是實作`業務邏輯`。
 
 ### Delivery 層 - 交付業務邏輯給引擎的跑腿工
 
-![https://i.imgur.com/AJ6zmsa.png](https://i.imgur.com/AJ6zmsa.png)
+![](https://i.imgur.com/AJ6zmsa.png)
 
 看到這邊大家應該已經發現，Clean Architecture 的重點就是:
 
@@ -255,13 +252,11 @@ func (d *DigimonHandler) PostToCreateDigimon(c *gin.Context) {
 // ... 其他程式碼
 ```
 
-- `講解1 - 定義依賴注入(DI)所需的Usecase層`: 如 usecase 層，值得注意的是，由於 digimon 相關的 Restful API 除了有用到 DigimonUsecase，還有用到
-DietUsecase，所以必須都注入進來，`並沒有規定只能注入digimon相關的usecase`。
+- `講解1 - 定義依賴注入(DI)所需的Usecase層`: 如 usecase 層，值得注意的是，由於 digimon 相關的 Restful API 除了有用到 DigimonUsecase，還有用到 DietUsecase，所以必須都注入進來，`並沒有規定只能注入digimon相關的usecase`。
 - `講解2 - 將Server引擎丟進來並且設定`: 這裡比較特別，是透過把 Golang-Gin 的 Server 引擎傳進 function 內，再把各個 handler 與 route 交付(delivery)綁定。
 - `講解3 - 透過`[swagger-generator](https://github.com/swagger-api/swagger-codegen)`來解析各個HTTP傳遞`: 這裡終於要用到[swagger-generator](https://github.com/swagger-api/swagger-codegen)的好處，可以看到不論是輸入處`講解3-1`、回傳錯誤處`講解3-2`、成功回傳處`講解3-3`都可以透過`swagger.定義好的介面`來解析。這樣就省去了很多定義時間，並且也減少了很多定義不小心寫錯的可能性！
 
-## 最後，把一切透過
-`cmd/main.go` 跑起來吧！
+## 最後，把一切透過 `cmd/main.go` 跑起來吧！
 
 ```go
 // ... 其他程式碼
@@ -318,15 +313,14 @@ func main() {
 - `講解5 - 將Usecase層透過依賴注入(DI)來注入Delivery層`: 這裡要注意，除了注入以外，還有將 Golang-Gin 的引擎丟入，讓 delivery 層來綁定。
 - `講解 6 - 將Golang-Gin跑起來！`
 
-進入到我們 DAY07 資料夾底下，使用 docker-compose 把 Golang-Server 與
-DB 跑起來吧！
+進入到我們 DAY07 資料夾底下，使用 docker-compose 把 Golang-Server 與 DB 跑起來吧！
 
 ```bash
 $ cd DAY07
 $ docker-compose up
 ```
 
-![https://i.imgur.com/s42lh1p.png](https://i.imgur.com/s42lh1p.png)
+![](https://i.imgur.com/s42lh1p.png)
 
 Work!
 
@@ -334,27 +328,25 @@ Work!
 
 創建數碼蛋，
 
-![https://i.imgur.com/6mrhFsX.png](https://i.imgur.com/6mrhFsX.png)
+![](https://i.imgur.com/6mrhFsX.png)
 
 查看數碼蛋狀態，
 
-![https://i.imgur.com/T0osPBU.png](https://i.imgur.com/T0osPBU.png)
+![](https://i.imgur.com/T0osPBU.png)
 
 培育數碼獸，
 
-![https://i.imgur.com/DWNakcv.png](https://i.imgur.com/DWNakcv.png)
+![](https://i.imgur.com/DWNakcv.png)
 
-如果你有安裝[Postico](https://eggerapps.at/postico/)，可以去看看 diets table
-是不是真的有吃了食物，
+如果你有安裝[Postico](https://eggerapps.at/postico/)，可以去看看 diets table 是不是真的有吃了食物，
 
-![https://i.imgur.com/jdfwHFc.png](https://i.imgur.com/jdfwHFc.png)
+![](https://i.imgur.com/jdfwHFc.png)
 
 嗯！滿滿的蘋果，看我還不飽炸你，亞古獸 XD ～
 
-![https://i.imgur.com/ZKDEbdn.png](https://i.imgur.com/ZKDEbdn.png)
+![](https://i.imgur.com/ZKDEbdn.png)
 
 ## 參考
 
 - [bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch)
-- [Trying
-Clean Architecture on Golang](https://medium.com/hackernoon/golang-clean-archithecture-efd6d7c43047)
+- [Trying Clean Architecture on Golang](https://medium.com/hackernoon/golang-clean-archithecture-efd6d7c43047)

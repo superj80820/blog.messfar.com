@@ -14,11 +14,7 @@ tags = ['k8s', 'istio', 'ithome-2020']
 
 ---
 
-大家好，今天要介紹 Istio 的 Grafana，Grafana
-是可以將微服務網路可視化的工具，在微服務變多之後，服務 A
-跟哪些服務連接了，就會變得錯綜複雜，由於我們現在有了 Istio 的 envoy
-proxy sidecar，各個 sidecar 就會一直回報資訊給
-Grafana，以達到網路可視化的需求。
+大家好，今天要介紹 Istio 的 Grafana，Grafana 是可以將微服務網路可視化的工具，在微服務變多之後，服務 A 跟哪些服務連接了，就會變得錯綜複雜，由於我們現在有了 Istio 的 envoy proxy sidecar，各個 sidecar 就會一直回報資訊給 Grafana，以達到網路可視化的需求。
 
 ## 安裝
 
@@ -34,11 +30,11 @@ $ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.7/sam
 $ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.7/samples/addons/grafana.yaml
 $ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.7/samples/addons/Grafana.yaml
 $ cd DAY28/helm-digimon
-$ helm install . --generate-name$ minikube tunnel
+$ helm install . --generate-name
+$ minikube tunnel
 ```
 
-之後我們連續開啟五個`web.backend.com`，讓整個 Service Mesh
-擁有流量，
+之後我們連續開啟五個`web.backend.com`，讓整個 Service Mesh 擁有流量，
 
 ---
 
@@ -50,9 +46,8 @@ istioctl dashboard grafana
 
 進入 Grafana 之後就可以看到裡頭的 service 的個流量數值
 
-![https://i.imgur.com/uz2C7vL.png](https://i.imgur.com/uz2C7vL.png)
+![](https://i.imgur.com/uz2C7vL.png)
 
 ## 參考
 
-- [Visualizing
-Metrics with Grafana](https://istio.io/latest/docs/tasks/observability/metrics/using-istio-dashboard/)
+- [Visualizing Metrics with Grafana](https://istio.io/latest/docs/tasks/observability/metrics/using-istio-dashboard/)
