@@ -92,11 +92,23 @@ date = 2024-01-02T00:00:00+08:00
 - 了解MySQL索引的BST、Balanced BST、B樹、B+樹底層: [https://mark-lin.com/posts/20190911/](https://mark-lin.com/posts/20190911/)
 - 為什麼MySQL的Innodb使用B+樹而不是紅黑樹作為索引: [https://mp.weixin.qq.com/s?__biz=MzIwNDAyOTI2Nw==&mid=2247483893&idx=1&sn=6f894a5cc2676073e50bacbdee5e6478&chksm=96c72dc9a1b0a4dfa95600ebf5ad7db9d804afbad6c7396078ab7f85d10c7516d602715172db&token=2074428159&lang=zh_CN#rd](https://mp.weixin.qq.com/s?__biz=MzIwNDAyOTI2Nw==&mid=2247483893&idx=1&sn=6f894a5cc2676073e50bacbdee5e6478&chksm=96c72dc9a1b0a4dfa95600ebf5ad7db9d804afbad6c7396078ab7f85d10c7516d602715172db&token=2074428159&lang=zh_CN#rd)
 
-### SQL基礎語法練習
-
-- [https://www.reddit.com/r/SQL/comments/qeuubg/what_is_the_best_way_to_practice_sql/](https://www.reddit.com/r/SQL/comments/qeuubg/what_is_the_best_way_to_practice_sql/)
-    - [https://sqlbolt.com/lesson/introduction](https://sqlbolt.com/lesson/introduction)
-    - [https://www.w3resource.com/mysql-exercises/](https://www.w3resource.com/mysql-exercises/)
+### SQL 理論
+  * https://www.brentozar.com/training/think-like-sql-server-engine/
+  * Dcard資深工程師寫的，很細膩:
+    * https://blog.kennycoder.io/2021/08/08/Postgres-%E6%B7%B1%E5%85%A5%E6%8E%A2%E8%A8%8Eindex-engine-%E7%9A%84%E8%A1%8C%E7%82%BA/
+    * https://blog.kennycoder.io/2023/11/18/%E8%AB%87%E8%AB%87-Postgres-%E8%88%87-MySQL-%E7%9A%84%E5%B7%AE%E7%95%B0/
+    * https://blog.kennycoder.io/2021/07/24/Postgres-zero-downtime-migration-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%84%E7%B4%B0%E7%AF%80/
+### SQL 練習
+   * 基本語法:
+     * https://sqlbolt.com/
+     * https://www.w3resource.com/mysql-exercises/
+   * 情境練習:
+     * https://leetcode.com/studyplan/top-sql-50/
+     * https://platform.stratascratch.com/coding
+     * https://datalemur.com/
+     * https://www.hackerrank.com/domains/sql
+     * https://sqlpad.io/
+     * https://www.interviewquery.com/
 
 ### Redis
 
@@ -105,6 +117,15 @@ date = 2024-01-02T00:00:00+08:00
 - Lua中有寫操作不能使用帶隨機性質的讀操作，如TIME，需用redis.replicate_commands()解決: [https://www.cnblogs.com/zhaoyongjie-z/p/14313046.html](https://www.cnblogs.com/zhaoyongjie-z/p/14313046.html)
 - Redis的五種數據結構: [https://pdai.tech/md/db/nosql-redis/db-redis-data-types.html](https://pdai.tech/md/db/nosql-redis/db-redis-data-types.html)
 - 為啥 redis 使用跳表(skiplist)而不是使用 red-black？: [https://www.zhihu.com/question/20202931](https://www.zhihu.com/question/20202931)
+
+### OLAP
+
+- ClickHouse
+  - 介紹: [ClickHouse:時序資料庫建置與運行](https://ithelp.ithome.com.tw/users/20103975/ironman/5207)
+
+### TSDB
+
+- influxdb
 
 ---
 
@@ -174,6 +195,12 @@ date = 2024-01-02T00:00:00+08:00
 ## 測試
 
 ### [測試框架或套件的選擇](Test%20%E9%9A%A8%E7%AD%86%20ae63acd045944c3a8c066c250be40b33/%E6%B8%AC%E8%A9%A6%E6%A1%86%E6%9E%B6%E6%88%96%E5%A5%97%E4%BB%B6%E7%9A%84%E9%81%B8%E6%93%87%2062a527aee9e04c9e814583a902bfd953.md)
+
+## 數據工程管道
+
+- Airflow
+  - [一段 Airflow 與資料工程的故事：談如何用 Python 追漫畫連載](https://leemeng.tw/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)
+- Flyte
 
 ## 前端
 

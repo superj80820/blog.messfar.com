@@ -9,7 +9,7 @@ menu:
             icon: archives
 ---
 
-* [學習地圖](https://blog.messfar.com/post/note/raodmap-note)
+* [學習地圖](https://blog.messfar.com/post/note/roadmap-note)
 * [Algo](https://blog.messfar.com/post/note/algo-note)
 * [Golang](https://blog.messfar.com/post/note/golang-note)
 * [Rust](https://blog.messfar.com/post/note/rust-note)

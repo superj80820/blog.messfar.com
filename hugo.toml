@@ -5,6 +5,9 @@ theme = "hugo-theme-stack"
 
 enable_site_search = true
 
+[services.googleAnalytics]
+  id = 'G-BP05PGX5T3'
+
 [services.disqus]
   shortname = 'superj80820'
 
